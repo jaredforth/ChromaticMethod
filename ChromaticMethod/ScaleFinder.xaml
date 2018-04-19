@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="ChromaticMethod.ScaleFinder"
+    Title="Scale Finder">
+    <Grid ColumnSpacing="5">
+       <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+       </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Text="Scale Finder" Grid.Row="0" Grid.Column="1"></Label>
+        <Label Text="Sharp Keys" Grid.Row="2" Grid.Column="0"></Label>
+        <Label Text="Flat Keys" Grid.Row="2" Grid.Column="2"></Label>
+        <Button Text="C" Clicked="C_Clicked" Grid.Row="3" Grid.Column="0"></Button>
+        <Button Text="C#" Clicked="C_Clicked" Grid.Row="4" Grid.Column="0"></Button>
+        <Button Text="D" Clicked="C_Clicked" Grid.Row="5" Grid.Column="0"></Button>
+        <Button Text="D#" Clicked="C_Clicked" Grid.Row="6" Grid.Column="0"></Button>
+        <Button Text="E" Clicked="C_Clicked" Grid.Row="7" Grid.Column="0"></Button>
+        <Button Text="F" Clicked="C_Clicked" Grid.Row="8" Grid.Column="0"></Button>
+        <Button Text="F#" Clicked="C_Clicked" Grid.Row="9" Grid.Column="0"></Button>
+        <Button Text="G" Clicked="C_Clicked" Grid.Row="10" Grid.Column="0"></Button>
+        <Button Text="G#" Clicked="C_Clicked" Grid.Row="11" Grid.Column="0"></Button>
+        <Button Text="A" Clicked="C_Clicked" Grid.Row="12" Grid.Column="0"></Button>
+        <Button Text="A#" Clicked="C_Clicked" Grid.Row="13" Grid.Column="0"></Button>
+        <Button Text="B" Clicked="C_Clicked" Grid.Row="14" Grid.Column="0"></Button>
+    </Grid>
+</ContentPage>

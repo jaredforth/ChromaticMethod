@@ -8,7 +8,7 @@ namespace ChromaticMethod
         {
             InitializeComponent();
 
-            MainPage = new ChromaticMethodPage();
+            MainPage = new ScaleFinder();
         }
 
         protected override void OnStart()
