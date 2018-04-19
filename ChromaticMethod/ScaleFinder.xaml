@@ -3,10 +3,33 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="ChromaticMethod.ScaleFinder"
-    Title="Scale Finder">
-    <Grid ColumnSpacing="5">
+    Title="Scale Finder"
+    BackgroundColor="#f0f0f0">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Header" TargetType="Label">
+                <Setter Property="TextColor" Value="Red"></Setter>
+                <Setter Property="FontSize" Value="40"></Setter>
+                <Setter Property="Margin" Value="0, 25, 0, 0"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+            </Style>
+            <Style x:Key="subHeader" TargetType="Label">
+                <Setter Property="TextColor" Value="Blue"></Setter>
+                <Setter Property="FontSize" Value="30"></Setter>
+                <Setter Property="BackgroundColor" Value="Green"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+            </Style>
+            <Style x:Key="ButtonKey" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Orange"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <Grid ColumnSpacing="0" RowSpacing="0">
        <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -20,25 +43,39 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
+       <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Label Text="Scale Finder" Grid.Row="0" Grid.Column="1"></Label>
-        <Label Text="Sharp Keys" Grid.Row="2" Grid.Column="0"></Label>
-        <Label Text="Flat Keys" Grid.Row="2" Grid.Column="2"></Label>
-        <Button Text="C" Clicked="C_Clicked" Grid.Row="3" Grid.Column="0"></Button>
-        <Button Text="C#" Clicked="C_Clicked" Grid.Row="4" Grid.Column="0"></Button>
+        
+        <Label Text="Scale Finder" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Style="{StaticResource Header}"></Label>
+        <Label Text="Keys:" Grid.Row="2" Grid.Column="0" Style="{StaticResource subHeader}"></Label>
+        <Label Text="Modes:" Grid.Row="2" Grid.Column="2" Style="{StaticResource subHeader}"></Label>
+        
+        <Button Text="C" Clicked="C_Clicked" Grid.Row="3" Grid.Column="0" Style="{StaticResource ButtonKey}"></Button>
+        <Button Text="C#/Db" Clicked="C_Clicked" Grid.Row="4" Grid.Column="0"></Button>
         <Button Text="D" Clicked="C_Clicked" Grid.Row="5" Grid.Column="0"></Button>
-        <Button Text="D#" Clicked="C_Clicked" Grid.Row="6" Grid.Column="0"></Button>
+        <Button Text="D#/Eb" Clicked="C_Clicked" Grid.Row="6" Grid.Column="0"></Button>
         <Button Text="E" Clicked="C_Clicked" Grid.Row="7" Grid.Column="0"></Button>
         <Button Text="F" Clicked="C_Clicked" Grid.Row="8" Grid.Column="0"></Button>
-        <Button Text="F#" Clicked="C_Clicked" Grid.Row="9" Grid.Column="0"></Button>
+        <Button Text="F#/Gb" Clicked="C_Clicked" Grid.Row="9" Grid.Column="0"></Button>
         <Button Text="G" Clicked="C_Clicked" Grid.Row="10" Grid.Column="0"></Button>
-        <Button Text="G#" Clicked="C_Clicked" Grid.Row="11" Grid.Column="0"></Button>
+        <Button Text="G#/Ab" Clicked="C_Clicked" Grid.Row="11" Grid.Column="0"></Button>
         <Button Text="A" Clicked="C_Clicked" Grid.Row="12" Grid.Column="0"></Button>
-        <Button Text="A#" Clicked="C_Clicked" Grid.Row="13" Grid.Column="0"></Button>
+        <Button Text="A#/Bb" Clicked="C_Clicked" Grid.Row="13" Grid.Column="0"></Button>
         <Button Text="B" Clicked="C_Clicked" Grid.Row="14" Grid.Column="0"></Button>
+        
+        <Button Text="Ionian" Clicked="C_Clicked" Grid.Row="3" Grid.Column="2"></Button>
+        <Button Text="Dorian" Clicked="C_Clicked" Grid.Row="4" Grid.Column="2"></Button>
+        <Button Text="Phrygian" Clicked="C_Clicked" Grid.Row="5" Grid.Column="2"></Button >
+        <Button Text="Lydian" Clicked="C_Clicked" Grid.Row="6" Grid.Column="2"></Button>
+        <Button Text="Mixolydian" Clicked="C_Clicked" Grid.Row="7" Grid.Column="2"></Button>
+        <Button Text="Aolian" Clicked="C_Clicked" Grid.Row="8" Grid.Column="2"></Button>
+        <Button Text="Locrian" Clicked="C_Clicked" Grid.Row="9" Grid.Column="2"></Button>
+
+        <Label Text="Scales:" Grid.Row="10" Grid.Column="2" Style="{StaticResource subHeader}"></Label>
+        <Button Text="Minor Pentatonic" Clicked="C_Clicked" Grid.Row="11" Grid.Column="2"></Button>
+        <Button Text="Major Pentatonic" Clicked="C_Clicked" Grid.Row="12" Grid.Column="2"></Button>
+        <Button Text="Harmonic Minor" Clicked="C_Clicked" Grid.Row="13" Grid.Column="2"></Button>
     </Grid>
 </ContentPage>
