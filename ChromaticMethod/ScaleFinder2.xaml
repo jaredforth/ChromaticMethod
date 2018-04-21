@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TabbedPage Title="C Major" 
-            xmlns:local="clr-namespace:ChromaticMethod; assembly:ChromaticMethod"
-            xmlns="http://xamarin.com/schemas/2014/forms" 
-            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-            x:Class="ChromaticMethod.CHome">
-    <ContentPage Title="Key Analyzer" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.KeyAnalyzer">
-            <ContentPage.Resources>
+<ContentPage Title="Scale Finder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.ScaleFinder2">
+    <ContentPage.Resources>
                 <ResourceDictionary>
                     <Style x:Key="Header" TargetType="Label">
                         <Setter Property="TextColor" Value="Black"></Setter>
@@ -28,9 +23,7 @@
             </ContentPage.Resources>
             <ScrollView>
                 <StackLayout>
-                    <Label Text="Key Analyzer" Style="{StaticResource Header}"></Label>
+                    <Label Text="Scale Finder" Style="{StaticResource Header}"></Label>
                 </StackLayout>
             </ScrollView>
-    </ContentPage>
-    <local:ScaleFinder2 />
-</TabbedPage>
+</ContentPage>

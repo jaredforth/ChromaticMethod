@@ -3,8 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="ChromaticMethod.ScaleFinder"
-    Title="Scale Finder"
-    BackgroundColor="#f0f0f0">
+    Title="Scale Finder">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -21,8 +20,8 @@
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
-    
-    <Grid ColumnSpacing="2" RowSpacing="2">
+    <ScrollView>
+       <Grid ColumnSpacing="2" RowSpacing="2">
        <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
@@ -62,4 +61,5 @@
         <Button Text="Harmonic Minor" Clicked="C_Clicked" Grid.Row="5" Grid.Column="2" Style="{StaticResource ButtonKey}"></Button>
         <Button Text="Melodic Minor" Clicked="C_Clicked" Grid.Row="6" Grid.Column="2" Style="{StaticResource ButtonKey}"></Button>
     </Grid>
+    </ScrollView>
 </ContentPage>

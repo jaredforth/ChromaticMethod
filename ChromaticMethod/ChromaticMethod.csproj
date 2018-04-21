@@ -42,6 +42,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="ScaleFinder2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -59,6 +63,9 @@
     </Compile>
     <Compile Include="CHome.xaml.cs">
       <DependentUpon>CHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ScaleFinder2.xaml.cs">
+      <DependentUpon>ScaleFinder2.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
