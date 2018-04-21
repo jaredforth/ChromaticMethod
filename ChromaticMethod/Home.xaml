@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.Home">
+<ContentPage Title="Home" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.Home">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="Header" TargetType="Label">
@@ -37,7 +37,6 @@
             <Button Text="A" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
             <Button Text="A#/Bb" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
             <Button Text="B" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
-            <BoxView HeightRequest="100" Color="Gray"></BoxView>
         </StackLayout>
     </ScrollView>
 </ContentPage>

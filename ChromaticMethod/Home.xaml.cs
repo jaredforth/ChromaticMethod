@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace ChromaticMethod
@@ -12,9 +11,9 @@ namespace ChromaticMethod
             InitializeComponent();
         }
 
-        void C_Clicked(object sender, System.EventArgs e)
+        async void C_Clicked(object sender, System.EventArgs e)
         {
-            DisplayAlert("C Major Scale", "C - D - E ...", "Go Back");
+            await Navigation.PushAsync(new CHome());
         }
     }
 }
