@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.Home">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Header" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="30"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
+            </Style>
+            <Style x:Key="subHeader" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
+            </Style>
+             <Style x:Key="ButtonKey" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="LightGray"></Setter>
+                <Setter Property="FontSize" Value="15"></Setter>
+                <Setter Property="Margin" Value="75, 5, 75, 5"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
+        <StackLayout Padding="0, 20, 0, 0">
+            <Label Text="Welcome to Chromatica" Style="{StaticResource Header}"></Label>
+            <Label Text="Choose a key to get started:" Style="{StaticResource subHeader}"></Label>
+            <Button Text="C" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="C#/Db" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="D" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="D#/Eb" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="E" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="F" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="F#/Gb" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="G" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="G#/Ab" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="A" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="A#/Bb" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <Button Text="B" Clicked="C_Clicked" Style="{StaticResource ButtonKey}"></Button>
+            <BoxView HeightRequest="100" Color="Gray"></BoxView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
