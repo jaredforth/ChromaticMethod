@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace ChromaticMethod
 {
-    public partial class CHome : ContentPage
+    public partial class CHome : TabbedPage
     {
         public CHome()
         {
