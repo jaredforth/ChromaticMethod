@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -29,7 +28,6 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="ChromaticMethodPage.xaml" />
     <EmbeddedResource Include="ScaleFinder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -42,7 +40,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ScaleFinder2.xaml">
+    <EmbeddedResource Include="CScaleFinder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CChordFinder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -50,9 +52,6 @@
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ChromaticMethodPage.xaml.cs">
-      <DependentUpon>ChromaticMethodPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScaleFinder.xaml.cs">
@@ -64,8 +63,11 @@
     <Compile Include="CHome.xaml.cs">
       <DependentUpon>CHome.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ScaleFinder2.xaml.cs">
-      <DependentUpon>ScaleFinder2.xaml</DependentUpon>
+    <Compile Include="CScaleFinder.xaml.cs">
+      <DependentUpon>CScaleFinder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CChordFinder.xaml.cs">
+      <DependentUpon>CChordFinder.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
