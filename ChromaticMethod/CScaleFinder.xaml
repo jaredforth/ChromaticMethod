@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Title="Scale Finder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.CScaleFinder">
-            <ContentPage.Resources>
-                <ResourceDictionary>
-                    <Style x:Key="Header" TargetType="Label">
-                        <Setter Property="TextColor" Value="Black"></Setter>
-                        <Setter Property="FontSize" Value="30"></Setter>
-                        <Setter Property="HorizontalOptions" Value="Center"></Setter>
-                        <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
-                    </Style>
-                    <Style x:Key="subHeader" TargetType="Label">
-                        <Setter Property="TextColor" Value="Black"></Setter>
-                        <Setter Property="FontSize" Value="20"></Setter>
-                        <Setter Property="HorizontalOptions" Value="Center"></Setter>
-                        <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
-                    </Style>
-                     <Style x:Key="ButtonKey" TargetType="Button">
-                        <Setter Property="BackgroundColor" Value="LightGray"></Setter>
-                        <Setter Property="FontSize" Value="15"></Setter>
-                        <Setter Property="Margin" Value="75, 5, 75, 5"></Setter>
-                    </Style>
-                </ResourceDictionary>
-            </ContentPage.Resources>
-            <ScrollView>
-                <StackLayout>
-                    <Label Text="Scale Finder" Style="{StaticResource Header}"></Label>
-                </StackLayout>
-            </ScrollView>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Header" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="30"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
+             </Style>
+             <Style x:Key="subHeader" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
+              </Style>                   
+              <Style x:Key="ButtonKey" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="LightGray"></Setter>
+                <Setter Property="FontSize" Value="15"></Setter>
+                <Setter Property="Margin" Value="75, 5, 75, 5"></Setter>
+               </Style>
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Scale Finder" Style="{StaticResource Header}"></Label>
+            </StackLayout>
+        </ScrollView>
 </ContentPage>

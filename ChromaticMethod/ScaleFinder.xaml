@@ -25,7 +25,7 @@
        <Grid.RowDefinitions>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
@@ -50,7 +50,7 @@
         
         <Button Text="Ionian" Clicked="C_Clicked" Grid.Row="3" Grid.Column="1" Style="{StaticResource ButtonKey}"></Button>
         <Button Text="Dorian" Clicked="C_Clicked" Grid.Row="4" Grid.Column="1" Style="{StaticResource ButtonKey}"></Button>
-        <Button Text="Phrygian" Clicked="C_Clicked" Grid.Row="5" Grid.Column="1" Style="{StaticResource ButtonKey}"></Button >
+        <Button Text="Phrygian" Clicked="C_Clicked" Grid.Row="5" Grid.Column="1" Style="{StaticResource ButtonKey}"></Button>
         <Button Text="Lydian" Clicked="C_Clicked" Grid.Row="6" Grid.Column="1" Style="{StaticResource ButtonKey}"></Button>
         <Button Text="Mixolydian" Clicked="C_Clicked" Grid.Row="7" Grid.Column="1" Style="{StaticResource ButtonKey}"></Button>
         <Button Text="Aolian" Clicked="C_Clicked" Grid.Row="8" Grid.Column="1" Style="{StaticResource ButtonKey}"></Button>
