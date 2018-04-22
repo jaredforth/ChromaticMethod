@@ -66,7 +66,7 @@ namespace ChromaticMethod
 
         async void DsEb_Clicked(object sender, System.EventArgs e)
         {
-            var DsEb = await DisplayAlert("Enharmonic Equivelants", "Select either D# or Eb", "D#", "Eb");
+            var DsEb = await DisplayAlert("Enharmonic Equivelants", "Select either D# or Eb", "Eb", "D#");
             if (DsEb)
             {
                 await Navigation.PushAsync(new ContentPage());
@@ -79,7 +79,7 @@ namespace ChromaticMethod
 
         async void FsGb_Clicked(object sender, System.EventArgs e)
         {
-            var FsGb = await DisplayAlert("Enharmonic Equivelants", "Select either F# or Gb", "F#", "Gb");
+            var FsGb = await DisplayAlert("Enharmonic Equivelants", "Select either F# or Gb", "Gb", "F#");
             if (FsGb)
             {
                 await Navigation.PushAsync(new ContentPage());
@@ -92,7 +92,7 @@ namespace ChromaticMethod
 
         async void GsAb_Clicked(object sender, System.EventArgs e)
         {
-            var GsAb = await DisplayAlert("Enharmonic Equivelants", "Select either G# or Ab", "G#", "Ab");
+            var GsAb = await DisplayAlert("Enharmonic Equivelants", "Select either G# or Ab", "Ab", "G#");
             if (GsAb)
             {
                 await Navigation.PushAsync(new ContentPage());
@@ -105,7 +105,7 @@ namespace ChromaticMethod
 
         async void AsBb_Clicked(object sender, System.EventArgs e)
         {
-            var AsBb = await DisplayAlert("Enharmonic Equivelants", "Select either A# or Bb", "A#", "Bb");
+            var AsBb = await DisplayAlert("Enharmonic Equivelants", "Select either A# or Bb", "Bb", "A#");
             if (AsBb)
             {
                 await Navigation.PushAsync(new ContentPage());
