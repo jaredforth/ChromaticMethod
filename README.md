@@ -83,7 +83,7 @@ This feature allows the user to input a key and get a return of all the musical 
 
 The user action that will stimulate the return is navigating to the key analyzer tab at the bottom of the application, taping in the text entry input bar, and imputing a key in the string: &#39;C,D,E,F,G,A,B&#39; with an optional sharp(#) or flat(b) attached. This will return the major scale, modes, and chords in that key.
 
-## 3.2Chord Finder
+### 3.2 Chord Finder
 
 **3.2.1        Description**
 
@@ -93,7 +93,7 @@ This feature allows the user to enter any chord and get a return of the notes th
 
 The user action that will stimulate the return is navigating to the chord finder tab at the bottom of the application, taping in the text entry input bar, and imputing a chord in the string: &#39;C,D,E,F,G,A,B&#39; with an optional sharp(#) or flat(b) attached. They can also attach one of the string: &#39;7,maj7,m7,9,maj9,m9,sus2,sus4,11,13, diminished, augmented&#39;. This will return the notes associated with the inputted chord.
 
-## 3.3 Scale Finder
+### 3.3 Scale Finder
 
 **3.3.1        Description**
 
