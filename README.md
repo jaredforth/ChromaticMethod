@@ -12,28 +12,28 @@
 
 | Table of Contents        |
 | --- |
-|         [**1. Introduction**  ](#1introduction)     |
+|         [**1. Introduction**  ](#1-introduction)     |
 |         1.1 Purpose      |
 |         1.2 Project Scope      |
 |         1.3 References       |
-|         [**2. Overall Description**](#2overall-description)        |
+|         [**2. Overall Description**](#2-overall-description)        |
 |         2.1 Product Perspective     |
 |         2.2. User Classes and Characteristics      |
 |         2.3 Operating Environment       |
-|         [**3. System Features**](#3system-features)        |
+|         [**3. System Features**](#3-system-features)        |
 |         3.1 Key Analyzer     |
-|         3.2 Chord Finder)        |
+|         3.2 Chord Finder        |
 |         3.3. Scale Finder       |
-|         [**4. External Interface Requirements**](#4external-interface-requirements)        |
+|         [**4. External Interface Requirements**](#4-external-interface-requirements)        |
 |         4.1 User Interfaces       |
-|         **5. Quality Attributes**       |
+|         [**5. Quality Attributes**](#5-quality-attributes)       |
 |         5.1 Usability      |
 |         5.2 Performance       |
 | |
 
 
 
-## 1.Introduction
+## 1. Introduction
 
 This program is a mobile application designed as a music theory tool for the company Chromatic Method, which presents a unique and fresh way to learn music theory.
 
@@ -52,7 +52,7 @@ Chromatica is a mobile app that allows the user to search and view the musical i
 - [_Xamarin Forms_](https://developer.xamarin.com) _– Platform_
 - [_Material Design_](https://material.io/guidelines/) _– Design language_
 
-## 2 Overall Description
+## 2. Overall Description
 
 This section describes the environment the application will run in, anticipated user classes, and an overview of the product.
 
@@ -107,11 +107,11 @@ The user action that will stimulate the return is navigating to the scale finder
 
 This lays out information about the external user interface required by the system.
 
-**4.1User Interfaces**
+**4.1 User Interfaces**
 
 The user interface of this application will feature a standard navigation bar at the bottom of the screen with the following tabs: Key Analyzer, Chord Finder, Scale Finder, About. Each of the first three will contain a brief description of what the tool does, and an input box for the user to enter their search query into. One the user enters their input, the subsequent screen will have a the name of the chord, key, or scale, a diagram of the musical relationship of that element to the rest of the key, and an image of the notation.
 
-## 5.Quality Attributes
+## 5. Quality Attributes
 
 **5.1 Usability**
 
