@@ -47,7 +47,7 @@ understanding and describing their business and revenue model;
 
 Chromatica is a mobile app that allows the user to search and view the musical interrelationships between a given key, chord, or scale. It contains the algorithms that govern how chords and scales are built, and contains the systematic and detailed information of western music theory. Chromatica relates to both user and corporate goals. The end user will be music educators, students, and composers. This app assists in the teaching, learning, and creation of music, and as such is able to help the users meet their individual goals. It relates to the business objective of Chromatic Method in that it presents a third-party platform that music schools can use to supplement their curriculum.
 
-#### 1.3 References**
+#### 1.3 References
 
 - [_Xamarin Forms_](https://developer.xamarin.com) _– Platform_
 - [_Material Design_](https://material.io/guidelines/) _– Design language_
