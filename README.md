@@ -148,26 +148,13 @@ Both the students and teachers can also access the three main functions of the a
 
 Image Here
 
-##### Use Case 
-
-1. The_Chromatic_Method
-__history__: created 3/6/18 by Jared Forth
-
-##### Description 
-
-Generates the musical relationships in
-a key, finds scales and chords based
-on user input
-
-##### Actors
-
-Educator (Primary), Student,
-Composers
-
-##### Assumptions 
-
-Generative algorithms can return all
-musical relationships in a given key
+|   |  |
+| ------------- | ------------- |
+| Use Case    | 1. The_Chromatic_Method __history__: created 3/6/18 by Jared Forth | |
+| Description    | Generates the musical relationships ina key, finds scales and chords based on user input  |
+| Actors    | Educator (Primary), Student, Composers  |
+| Assumptions    | Generative algorithms can return all musical relationships in a given key  |
+| Issues    | Teachers and students save ideas in addition to the composer?  |
 
 ##### Steps
 
@@ -184,10 +171,8 @@ actions:
 * Save ideas
 * Exit application
 
-##### Issues 
 
-Teachers and students save ideas in
-addition to the composer?
+
 
 #### 6.2 Component Diagram
 
