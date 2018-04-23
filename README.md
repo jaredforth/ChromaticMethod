@@ -12,23 +12,23 @@
 
 | Table of Contents        |
 | --- |
-|         Introduction        |
-|         Purpose        |
-|         Project Scope        |
-|         References        |
-|         Overall Description        |
-|         Product Perspective        |
-|         User Classes and Characteristics        |
-|         Operating Environment        |
-|         System Features        |
-|         Key Analyzer        |
-|         Chord Finder        |
-|         Scale Finder        |
-|         External Interface Requirements        |
-|         User Interfaces        |
-|         Quality Attributes        |
-|         Usability        |
-|         Performance        |
+|         **1. Introduction**        |
+|         1.1 Purpose        |
+|         1.2 Project Scope        |
+|         1.3 References        |
+|         **2. Overall Description**        |
+|         2.1 Product Perspective        |
+|         2.2. User Classes and Characteristics        |
+|         2.3 Operating Environment        |
+|         **3. System Features**        |
+|         3.1 Key Analyzer        |
+|         3.2 Chord Finder        |
+|         3.3. Scale Finder        |
+|         **4. External Interface Requirements**        |
+|         4.1 User Interfaces        |
+|         **5. Quality Attributes**        |
+|         5.1 Usability        |
+|         5.2 Performance        |
 | |
 
 
