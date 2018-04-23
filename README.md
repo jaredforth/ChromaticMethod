@@ -29,6 +29,11 @@
 |         [**5. Quality Attributes**](#5-quality-attributes)       |
 |         [5.1 Usability](#51-usability)      |
 |         [5.2 Performance](#52-performance)       |
+|         [**6. UML Diagrams**](#6-uml-diagrams)       |
+|         [6.1 Use Case Diagram](#61-use-case-diagram)       |
+|         [6.2 Component Diagram](#62-component-diagram)       |
+|         [6.3 Class Diagram](#63-class-diagram)       |
+|         [6.4 Entity Relationship Diagram](#64-entity-relationship-diagram)       |
 | |
 
 
@@ -120,3 +125,100 @@ This software will be user-friendly in the logical organization of the user inte
 #### 5.2 Performance
 
 This application is relatively lightweight, and as such will perform well even on older devices. It does not require Internet accessibility and does not interact with other applications or have any unique dependencies.
+
+## 6. UML Diagrams 
+
+This section contains UML diagrams describing various aspects of The Chromatic Method
+application, and contains the following diagrams. The use case diagram illustrates the interaction of
+actors with the application; the component diagram shows the interaction of the components with each
+other, the class diagram shows the interrelationship of classes and their functions, and the entity
+relationship diagram illustrates the relationship between the various entities of the application. Each
+section will have both the diagram and a paragraph describing its contents.
+
+#### 6.1 Use Case Diagram
+
+The diagram below presents the three user classes that interact with the system: Students, Educators,
+and Composers, and a system ‘user’ the Messaging Handler. The student exclusively interacts with a
+student login page, and can use a built-in messaging function to communicate with an educator. The
+composer, which is a non-registered user of the application, interacts with the three primary functions
+within the application, the key analyzer, the chord finder, and the scale finder. This user can also save
+ideas he or she draws from the scales and chords they generate. The educator interacts with a teacher
+login, can message their students, view student activity, and set up assignments for them to perform.
+Both the students and teachers can also access the three main functions of the application.
+
+Image Here
+
+##### Use Case 
+
+1. The_Chromatic_Method
+__history__: created 3/6/18 by Jared Forth
+
+##### Description 
+
+Generates the musical relationships in
+a key, finds scales and chords based
+on user input
+
+##### Actors
+
+Educator (Primary), Student,
+Composers
+
+##### Assumptions 
+
+Generative algorithms can return all
+musical relationships in a given key
+
+##### Steps
+
+* User login as teacher or student or
+skips login
+* Can perform one of the following
+actions:
+  - View or send a message
+  - Assign (educator) or view
+(student) a practice
+  - Access key analyzer
+  - Access chord finder
+  - Access scale finder
+* Save ideas
+* Exit application
+
+##### Issues 
+
+Teachers and students save ideas in
+addition to the composer?
+
+#### 6.2 Component Diagram
+
+The component diagram illustrates the interaction of components and is structured based on the user
+interface, functions that can be used, and the infrastructure/ logic behind those functions. The three user
+interface screens are the user login screen, which students and teachers can use to login and which can
+optionally be skipped by normal users. The key analyzer screen is the primary home interface on the
+application, and the scale/chord finder is the secondary interface that can be navigated to. The user
+management function regulates the login interface, the analysis function that of the key analyzer, and
+the chord and scale finder functions for the corresponding finder interface. User logic regulates the
+management of users and controls how they are allowed to interact with each other. The analyzer and
+chord and scale finder logic uses slightly different algorithms to return information based on the user
+input.
+
+#### 6.3 Class Diagram 
+
+The class diagram presents the classes in the application logic, and has the Composer, Educator, and
+Student, which are particular instances of the general class User. The Login class allows students and
+educators to login and view details specific to their account. The LoginPage class allows the user to
+send a message or view/assign a practice, depending on the type of account the user has. The
+StudentMenu and TeacherMenu classes regulate the function of these actions. The Composer class
+regulates the actions of a user that is not logged in to the application. The three primary logical functions
+of the application are found in the Analyzer, ChordFinder, and ScaleFinder classes, which contain the
+logic for the function of the application. The algorithms that return what the user is looking for are
+contained in these classes. The SaveIdea class allows the user to save snippets they have generated,
+and the three primary classes are accessible by all users.
+
+#### 6.4 Entity Relationship Diagram
+
+The entity relationship diagram presents the relationship between entities of the application and the ratio
+by which they can interact with one another. Many users can access any of the functions at any time,
+and this applies to all users. The particular instance of user, one educator, can teach many students, but
+each student only relates to one teacher. Many composers can save many ideas, and both educators
+and students can access all of the functions.
