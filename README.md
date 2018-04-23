@@ -46,8 +46,6 @@ This program is a mobile application designed as a music theory tool for the com
 
 The product this SRS describes the requirements for is Chromatica, a mobile application by the company Chromatic Method. It is currently in development, and this document is for developers, project managers, and usability testers to learn about the program.
 
-understanding and describing their business and revenue model;
-
 #### 1.2 Project Scope
 
 Chromatica is a mobile app that allows the user to search and view the musical interrelationships between a given key, chord, or scale. It contains the algorithms that govern how chords and scales are built, and contains the systematic and detailed information of western music theory. Chromatica relates to both user and corporate goals. The end user will be music educators, students, and composers. This app assists in the teaching, learning, and creation of music, and as such is able to help the users meet their individual goals. It relates to the business objective of Chromatic Method in that it presents a third-party platform that music schools can use to supplement their curriculum.
