@@ -1,10 +1,5 @@
-##
-
 # Software Requirements Specification
-
-#
 ## for
-
 # The Chromatic Method
 
 **Prepared by Jared Forth**
