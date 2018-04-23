@@ -144,8 +144,6 @@ ideas he or she draws from the scales and chords they generate. The educator int
 login, can message their students, view student activity, and set up assignments for them to perform.
 Both the students and teachers can also access the three main functions of the application.
 
-Image Here
-
 |   |  |
 | ------------- | ------------- |
 | Use Case    | 1. The_Chromatic_Method __history__: created 3/6/18 by Jared Forth | |
@@ -169,8 +167,7 @@ actions:
 * Save ideas
 * Exit application
 
-
-
+![Use Case](https://i.imgur.com/ghLbRAv.png)
 
 #### 6.2 Component Diagram
 
@@ -185,6 +182,8 @@ management of users and controls how they are allowed to interact with each othe
 chord and scale finder logic uses slightly different algorithms to return information based on the user
 input.
 
+![Component](https://i.imgur.com/KtxEQs1.png)
+
 #### 6.3 Class Diagram 
 
 The class diagram presents the classes in the application logic, and has the Composer, Educator, and
@@ -198,6 +197,8 @@ logic for the function of the application. The algorithms that return what the u
 contained in these classes. The SaveIdea class allows the user to save snippets they have generated,
 and the three primary classes are accessible by all users.
 
+![Class](https://i.imgur.com/K8AcwIU.png)
+
 #### 6.4 Entity Relationship Diagram
 
 The entity relationship diagram presents the relationship between entities of the application and the ratio
@@ -205,3 +206,5 @@ by which they can interact with one another. Many users can access any of the fu
 and this applies to all users. The particular instance of user, one educator, can teach many students, but
 each student only relates to one teacher. Many composers can save many ideas, and both educators
 and students can access all of the functions.
+
+![Entity - relationship](https://i.imgur.com/ZeRQGXa.png)
