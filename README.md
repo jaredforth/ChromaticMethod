@@ -13,22 +13,22 @@
 | Table of Contents        |
 | --- |
 |         [**1. Introduction**  ](#1introduction)     |
-|         [1.1 Purpose](Purpose)        |
-|         [1.2 Project Scope](Project-Scope)        |
-|         [1.3 References](References)        |
-|         [**2. Overall Description**](Overall-Description)        |
-|         [2.1 Product Perspective](Product-Perspective)        |
-|         [2.2. User Classes and Characteristics](User-Classes-and-Characteristics)        |
-|         [2.3 Operating Environment](Operating-Environment)        |
-|         [**3. System Features**](System-Features)        |
-|         [3.1 Key Analyzer](Key-Analyzer)        |
-|         [3.2 Chord Finder](Chord-Finder)        |
-|         [3.3. Scale Finder](Scale-Finder)        |
-|         [**4. External Interface Requirements**](External-Interface-Requirements)        |
-|         [4.1 User Interfaces](User-Interfaces)        |
-|         [**5. Quality Attributes**](Quality-Attributes)        |
-|         [5.1 Usability](Usability)        |
-|         [5.2 Performance](Performance)        |
+|         1.1 Purpose      |
+|         1.2 Project Scope      |
+|         1.3 References       |
+|         [**2. Overall Description**](#2overall-description)        |
+|         2.1 Product Perspective     |
+|         2.2. User Classes and Characteristics      |
+|         2.3 Operating Environment       |
+|         [**3. System Features**](#3system-features)        |
+|         3.1 Key Analyzer     |
+|         3.2 Chord Finder)        |
+|         3.3. Scale Finder       |
+|         [**4. External Interface Requirements**](#4external-interface-requirements)        |
+|         4.1 User Interfaces       |
+|         **5. Quality Attributes**       |
+|         5.1 Usability      |
+|         5.2 Performance       |
 | |
 
 
