@@ -21,9 +21,9 @@
 |         2.2. User Classes and Characteristics      |
 |         2.3 Operating Environment       |
 |         [**3. System Features**](#3-system-features)        |
-|         3.1 Key Analyzer     |
-|         3.2 Chord Finder        |
-|         3.3. Scale Finder       |
+|         [3.1 Key Analyzer](#31-key-analyzer)     |
+|         [3.2 Chord Finder](#32-chord-finder)        |
+|         [3.3. Scale Finder](#33-scale-finder)       |
 |         [**4. External Interface Requirements**](#4-external-interface-requirements)        |
 |         4.1 User Interfaces       |
 |         [**5. Quality Attributes**](#5-quality-attributes)       |
