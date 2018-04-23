@@ -4,7 +4,7 @@
             xmlns="http://xamarin.com/schemas/2014/forms" 
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             x:Class="ChromaticMethod.CHome">
-    <ContentPage Title="Key Analyzer" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.KeyAnalyzer">
+    <ContentPage Title="Key Analyzer" Icon="clef.png" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.KeyAnalyzer">
             <ContentPage.Resources>
                 <ResourceDictionary>
                     <Style x:Key="Header" TargetType="Label">

@@ -1,29 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage Title="Scale Finder" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.CScaleFinder">
+<ContentPage Title="Scale Finder" Icon="singlenote.png" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.CScaleFinder">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="Header" TargetType="Label">
-                <Setter Property="TextColor" Value="Black"></Setter>
-                <Setter Property="FontSize" Value="30"></Setter>
-                <Setter Property="HorizontalOptions" Value="Center"></Setter>
-                <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
+                    <Setter Property="TextColor" Value="Black"></Setter>
+                    <Setter Property="FontSize" Value="30"></Setter>
+                    <Setter Property="HorizontalOptions" Value="Center"></Setter>
              </Style>
              <Style x:Key="subHeader" TargetType="Label">
-                <Setter Property="TextColor" Value="Black"></Setter>
-                <Setter Property="FontSize" Value="20"></Setter>
-                <Setter Property="HorizontalOptions" Value="Center"></Setter>
-                <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
+                    <Setter Property="TextColor" Value="Black"></Setter>
+                    <Setter Property="FontSize" Value="20"></Setter>
+                    <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                    <Setter Property="Margin" Value="0, 20, 0, 20"></Setter>
               </Style>                   
               <Style x:Key="ButtonKey" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="LightGray"></Setter>
-                <Setter Property="FontSize" Value="15"></Setter>
-                <Setter Property="Margin" Value="75, 5, 75, 5"></Setter>
+                    <Setter Property="BackgroundColor" Value="LightGray"></Setter>
+                    <Setter Property="FontSize" Value="15"></Setter>
                </Style>
+               <Style x:Key="ScaleGroup" TargetType="Grid">
+                    <Setter Property="BackgroundColor" Value="LightGray"></Setter>
+               </Style> 
             </ResourceDictionary>
         </ContentPage.Resources>
         <ScrollView>
-            <StackLayout>
-                <Label Text="Scale Finder" Style="{StaticResource Header}"></Label>
-            </StackLayout>
+            <Grid>
+                <Label Text="Scale Finder" Style="{StaticResource Header}" Grid.Column="0" Grid.RowSpan="3"></Label>
+                    <Grid ColumnSpacing="5" RowSpacing="5" Padding="20, 0, 20, 0">
+                        <Label Text="Diatonic Modes" Style="{StaticResource subHeader}" Grid.Row="1" Grid.ColumnSpan="4"></Label>
+                        <Button Text="Ionain" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0"></Button>
+                        <Button Text="Dorian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1"></Button>
+                        <Button Text="Phrygian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2"></Button>
+                        <Button Text="Lydian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3"></Button>
+                        <Button Text="Mixolydian" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0"></Button>
+                        <Button Text="Aolian" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1"></Button>
+                        <Button Text="Locrian" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2"></Button>
+               
+                        <Label Text="Pentatonic Scales" Style="{StaticResource subHeader}" Grid.Row="4" Grid.ColumnSpan="4"></Label>
+                        <Button Text="Ionain (Major)" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="0"></Button>
+                        <Button Text="Dorian" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="1"></Button>
+                        <Button Text="Phrygian" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="2"></Button>
+                        <Button Text="Lydian" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="3"></Button>
+                        <Button Text="Mixolydian" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="0"></Button>
+                        <Button Text="Aolian" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="1"></Button>
+                        <Button Text="Locrian" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="2"></Button>
+
+                        <Label Text="Other Scales" Style="{StaticResource subHeader}" Grid.Row="7" Grid.ColumnSpan="4"></Label>
+                        <Button Text="Ionain (Major)" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="0"></Button>
+                        <Button Text="Dorian" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="1"></Button>
+                        <Button Text="Phrygian" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="2"></Button>
+                        <Button Text="Lydian" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="3"></Button>
+                        <Button Text="Mixolydian" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="0"></Button>
+                        <Button Text="Aolian" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="1"></Button>
+                        <Button Text="Locrian" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="2"></Button>
+
+                        <Label Text="Other Scales" Style="{StaticResource subHeader}" Grid.Row="10" Grid.ColumnSpan="4"></Label>
+                        <Button Text="Ionain (Major)" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="0"></Button>
+                        <Button Text="Dorian" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="1"></Button>
+                        <Button Text="Phrygian" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="2"></Button>
+                        <Button Text="Lydian" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="3"></Button>
+                        <Button Text="Mixolydian" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="0"></Button>
+                        <Button Text="Aolian" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="1"></Button>
+                        <Button Text="Locrian" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="2"></Button>
+                    </Grid>
+                </Grid>
         </ScrollView>
 </ContentPage>
