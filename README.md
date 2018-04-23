@@ -18,7 +18,7 @@
 |         [1.3 References](#13-references)      |
 |         [**2. Overall Description**](#2-overall-description)        |
 |         [2.1 Product Perspective](#21-product-perspective)     |
-|         [2.2. User Classes and Characteristics](#22-user-classes-and-charactaristics)      |
+|         [2.2. User Classes and Characteristics](#22-user-classes-and-characteristics)      |
 |         [2.3 Operating Environment](#23-operating-environment)       |
 |         [**3. System Features**](#3-system-features)        |
 |         [3.1 Key Analyzer](#31-key-analyzer)     |
