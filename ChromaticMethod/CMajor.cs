@@ -11,8 +11,9 @@ namespace ChromaticMethod
         {
             InitializeComponent();
 
-            var builder = new Major();
             var layout = new StackLayout() { HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center };
+
+            // Major Scales
 
             if (scaleType == "Ionian") 
             {
@@ -60,6 +61,44 @@ namespace ChromaticMethod
             {
                 var scale = Major.Locrian("C");
                 var text = new Label() { Text = $"The B {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+
+            // Minor Pentatonic Scales 
+
+            if (scaleType == "Minor Pentatonic I")
+            {
+                var scale = MinorPentatonic.ModeI("A");
+                var text = new Label() { Text = $"The A {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Minor Pentatonic II")
+            {
+                var scale = MinorPentatonic.ModeII("A");
+                var text = new Label() { Text = $"The A {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Minor Pentatonic III")
+            {
+                var scale = MinorPentatonic.ModeIII("A");
+                var text = new Label() { Text = $"The A {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Minor Pentatonic IV")
+            {
+                var scale = MinorPentatonic.ModeIV("A");
+                var text = new Label() { Text = $"The A {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Minor Pentatonic V")
+            {
+                var scale = MinorPentatonic.ModeV("A");
+                var text = new Label() { Text = $"The A {scaleType} scale is: {scale}" };
                 layout.Children.Add(text);
                 Content = layout;
             }

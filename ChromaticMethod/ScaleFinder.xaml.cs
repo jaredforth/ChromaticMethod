@@ -8,6 +8,7 @@ namespace ChromaticMethod
     public partial class ScaleFinder : ContentPage
 
     {
+
         public string Key;
 
         public ScaleFinder(string key)
@@ -16,6 +17,8 @@ namespace ChromaticMethod
 
             Key = key;
         }
+
+        // Major Scales 
 
         async void Ionain_Clicked (object sender, System.EventArgs e)
         {
@@ -410,6 +413,274 @@ namespace ChromaticMethod
                     break;
                 case "B":
                     await Navigation.PushAsync(new CMajor("Locrian"));
+                    break;
+                default:
+                    throw new NotSupportedException();
+            }
+        }
+
+        // Minor Pentatonic Scales 
+
+        async void mPentI (object sender, System.EventArgs e)
+        {
+            switch (Key)
+            {
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    break;
+                default:
+                    throw new NotSupportedException();
+            }
+        }
+        async void mPentII(object sender, System.EventArgs e)
+        {
+            switch (Key)
+            {
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    break;
+                default:
+                    throw new NotSupportedException();
+            }
+        }
+        async void mPentIII(object sender, System.EventArgs e)
+        {
+            switch (Key)
+            {
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    break;
+                default:
+                    throw new NotSupportedException();
+            }
+        }
+        async void mPentIV(object sender, System.EventArgs e)
+        {
+            switch (Key)
+            {
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    break;
+                default:
+                    throw new NotSupportedException();
+            }
+        }
+        async void mPentV(object sender, System.EventArgs e)
+        {
+            switch (Key)
+            {
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
                     break;
                 default:
                     throw new NotSupportedException();
