@@ -28,10 +28,6 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="ScaleFinder.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Home.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -40,27 +36,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="CScaleFinder.xaml">
+    <EmbeddedResource Include="ScaleFinder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="CChordFinder.xaml">
+    <EmbeddedResource Include="ChordFinder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="CMajor.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DIonian.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DHome.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DScaleFinder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -70,34 +54,22 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScaleFinder.xaml.cs">
-      <DependentUpon>ScaleFinder.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
     <Compile Include="CHome.xaml.cs">
       <DependentUpon>CHome.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CScaleFinder.xaml.cs">
-      <DependentUpon>CScaleFinder.xaml</DependentUpon>
+    <Compile Include="ScaleFinder.xaml.cs">
+      <DependentUpon>ScaleFinder.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CChordFinder.xaml.cs">
-      <DependentUpon>CChordFinder.xaml</DependentUpon>
+    <Compile Include="ChordFinder.xaml.cs">
+      <DependentUpon>ChordFinder.xaml</DependentUpon>
     </Compile>
     <Compile Include="CMajor.cs">
       <DependentUpon>CMajor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Major.cs" />
-    <Compile Include="DIonian.xaml.cs">
-      <DependentUpon>DIonian.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DHome.xaml.cs">
-      <DependentUpon>DHome.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DScaleFinder.xaml.cs">
-      <DependentUpon>DScaleFinder.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

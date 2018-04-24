@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace ChromaticMethod
 {
-    public partial class DHome : TabbedPage
+    public partial class ChordFinder : ContentPage
     {
-        public DHome()
+        public ChordFinder(string Key)
         {
             InitializeComponent();
         }

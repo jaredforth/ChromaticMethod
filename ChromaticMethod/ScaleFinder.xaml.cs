@@ -7,19 +7,44 @@ namespace ChromaticMethod
 {
     public partial class ScaleFinder : ContentPage
     {
-        public ScaleFinder()
+        public ScaleFinder(string Key)
         {
             InitializeComponent();
         }
 
-        void C_Clicked(object sender, System.EventArgs e)
+        async void Ionain_Clicked (object sender, System.EventArgs e)
         {
-            DisplayAlert("C Major Scale", "C - D - E ...", "Go Back");
+            await Navigation.PushAsync(new CMajor("Ionian"));
         }
 
-        void Handle_Clicked(object sender, System.EventArgs e)
+        async void Dorian_Clicked (object sender, System.EventArgs e)
         {
-            DisplayAlert("D Major Scale", "D - E - F#...", "Go Back");
+            await Navigation.PushAsync(new CMajor("Dorian"));
+        }
+
+        async void Phrygian_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Phrygian"));
+        }
+
+        async void Lydian_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Lydian"));
+        }
+
+        async void Mixolydian_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Mixolydian"));
+        }
+
+        async void Aolian_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Aolian"));
+        }
+
+        async void Locrian_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Locrian"));
         }
     }
 }

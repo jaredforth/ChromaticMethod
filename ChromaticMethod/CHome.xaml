@@ -32,6 +32,4 @@
                 </StackLayout>
             </ScrollView>
     </ContentPage>
-    <local:CScaleFinder/>
-    <local:CChordFinder />
 </TabbedPage>
