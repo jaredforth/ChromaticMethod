@@ -711,7 +711,7 @@ namespace ChromaticMethod
                 var VI = C[5];
                 var VII = C[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "C#")
@@ -724,7 +724,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "Db")
@@ -737,7 +737,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "D")
@@ -750,7 +750,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "D#")
@@ -763,7 +763,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "Eb")
@@ -776,7 +776,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "E")
@@ -789,7 +789,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "F")
@@ -802,7 +802,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "F#")
@@ -815,7 +815,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "Gb")
@@ -828,7 +828,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "G")
@@ -841,7 +841,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "G#")
@@ -854,7 +854,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "Ab")
@@ -867,7 +867,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "A")
@@ -880,7 +880,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "A#")
@@ -893,7 +893,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "Bb")
@@ -906,7 +906,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
             else if (Key == "B")
@@ -919,13 +919,13 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{IV} {V} {VI} {VII} {I} {II} {III}";
                 return scale;
             }
 
             return "invalid";
         }
-        public static string Dorian(string Key)
+        public static string Mixolydian(string Key)
         {
             if (Key == "C")
             {
@@ -937,7 +937,7 @@ namespace ChromaticMethod
                 var VI = C[5];
                 var VII = C[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "C#")
@@ -950,7 +950,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "Db")
@@ -963,7 +963,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "D")
@@ -976,7 +976,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "D#")
@@ -989,7 +989,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "Eb")
@@ -1002,7 +1002,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "E")
@@ -1015,7 +1015,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "F")
@@ -1028,7 +1028,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "F#")
@@ -1041,7 +1041,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "Gb")
@@ -1054,7 +1054,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "G")
@@ -1067,7 +1067,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "G#")
@@ -1080,7 +1080,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "Ab")
@@ -1093,7 +1093,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "A")
@@ -1106,7 +1106,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "A#")
@@ -1119,7 +1119,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "Bb")
@@ -1132,7 +1132,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
             else if (Key == "B")
@@ -1145,13 +1145,13 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{V} {VI} {VII} {I} {II} {III} {IV}";
                 return scale;
             }
 
             return "invalid";
         }
-        public static string Dorian(string Key)
+        public static string Aolian(string Key)
         {
             if (Key == "C")
             {
@@ -1163,7 +1163,7 @@ namespace ChromaticMethod
                 var VI = C[5];
                 var VII = C[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "C#")
@@ -1176,7 +1176,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "Db")
@@ -1189,7 +1189,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "D")
@@ -1202,7 +1202,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "D#")
@@ -1215,7 +1215,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "Eb")
@@ -1228,7 +1228,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "E")
@@ -1241,7 +1241,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "F")
@@ -1254,7 +1254,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "F#")
@@ -1267,7 +1267,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "Gb")
@@ -1280,7 +1280,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "G")
@@ -1293,7 +1293,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "G#")
@@ -1306,7 +1306,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "Ab")
@@ -1319,7 +1319,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "A")
@@ -1332,7 +1332,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "A#")
@@ -1345,7 +1345,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "Bb")
@@ -1358,7 +1358,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
             else if (Key == "B")
@@ -1371,13 +1371,13 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VI} {VII} {I} {II} {III} {IV} {V}";
                 return scale;
             }
 
             return "invalid";
         }
-        public static string Dorian(string Key)
+        public static string Locrian(string Key)
         {
             if (Key == "C")
             {
@@ -1389,7 +1389,7 @@ namespace ChromaticMethod
                 var VI = C[5];
                 var VII = C[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "C#")
@@ -1402,7 +1402,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "Db")
@@ -1415,7 +1415,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "D")
@@ -1428,7 +1428,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "D#")
@@ -1441,7 +1441,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "Eb")
@@ -1454,7 +1454,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "E")
@@ -1467,7 +1467,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "F")
@@ -1480,7 +1480,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "F#")
@@ -1493,7 +1493,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "Gb")
@@ -1506,7 +1506,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "G")
@@ -1519,7 +1519,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "G#")
@@ -1532,7 +1532,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "Ab")
@@ -1545,7 +1545,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "A")
@@ -1558,7 +1558,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "A#")
@@ -1571,7 +1571,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "Bb")
@@ -1584,7 +1584,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
             else if (Key == "B")
@@ -1597,7 +1597,7 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var scale = $"{II} {III} {IV} {V} {VI} {VII} {I}";
+                var scale = $"{VII} {I} {II} {III} {IV} {V} {VI} ";
                 return scale;
             }
 
