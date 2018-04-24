@@ -71,6 +71,7 @@
     </Compile>
     <Compile Include="Major.cs" />
     <Compile Include="MinorPentatonic.cs" />
+    <Compile Include="MajorPentatonic.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -8,7 +8,6 @@ namespace ChromaticMethod
     public partial class ScaleFinder : ContentPage
 
     {
-
         public string Key;
 
         public ScaleFinder(string key)
@@ -685,6 +684,29 @@ namespace ChromaticMethod
                 default:
                     throw new NotSupportedException();
             }
+        }
+
+        // Major Pentatonic Scales 
+
+        async void MPentI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Major Pentatonic I"));
+        }
+        async void MPentII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Major Pentatonic II"));
+        }
+        async void MPentIII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Major Pentatonic III"));
+        }
+        async void MPentIV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Major Pentatonic IV"));
+        }
+        async void MPentV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Major Pentatonic V"));
         }
     }
 }

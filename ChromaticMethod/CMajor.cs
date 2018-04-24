@@ -102,6 +102,45 @@ namespace ChromaticMethod
                 layout.Children.Add(text);
                 Content = layout;
             }
+
+            // Major Pentatonic Scales 
+
+            if (scaleType == "Major Pentatonic I")
+            {
+                var scale = MajorPentatonic.ModeI("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Major Pentatonic II")
+            {
+                var scale = MajorPentatonic.ModeII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Major Pentatonic III")
+            {
+                var scale = MajorPentatonic.ModeIII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Major Pentatonic IV")
+            {
+                var scale = MajorPentatonic.ModeIV("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Major Pentatonic V")
+            {
+                var scale = MajorPentatonic.ModeV("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+
         }
     }
 }

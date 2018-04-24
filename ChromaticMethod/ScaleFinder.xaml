@@ -44,11 +44,11 @@
                         <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="0" Clicked="mPentV"></Button>
 
                         <Label Text="Major Pentatonic" Style="{StaticResource subHeader}" Grid.Row="7" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="0"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="0" Clicked="MPentI"></Button>
+                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="1" Clicked="MPentII"></Button>
+                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="2" Clicked="MPentIII"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="3" Clicked="MPentIV"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="0" Clicked="MPentV"></Button>
 
                         <Label Text="Melodic Minor" Style="{StaticResource subHeader}" Grid.Row="10" Grid.ColumnSpan="4"></Label>
                         <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="0"></Button>
