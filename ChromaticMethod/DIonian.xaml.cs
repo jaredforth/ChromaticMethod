@@ -11,8 +11,8 @@ namespace ChromaticMethod
         {
             InitializeComponent();
 
-            var builder = new Ionian();
-            var scale = Ionian.IonianBuilder("D");
+            var builder = new Major();
+            var scale = Major.Ionian("D");
 
             var layout = new StackLayout() { HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center };
             var text = new Label() { Text = $"The D Ionian scale is: {scale}" };

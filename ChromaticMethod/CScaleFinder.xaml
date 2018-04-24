@@ -29,7 +29,7 @@
                 
                         <Label Text="Major" Style="{StaticResource subHeader}" Grid.Row="1" Grid.ColumnSpan="4"></Label>
                         <Button Text="Ionian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="Ionain_Clicked"></Button>
-                        <Button Text="Dorian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1"></Button>
+                        <Button Text="Dorian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="Dorian_Clicked"></Button>
                         <Button Text="Phrygian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2"></Button>
                         <Button Text="Lydian" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3"></Button>
                         <Button Text="Mixolydian" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0"></Button>

@@ -14,16 +14,12 @@ namespace ChromaticMethod
 
         async void Ionain_Clicked (object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CIonian());
+            await Navigation.PushAsync(new CMajor("Ionian"));
         }
 
-        //void Ionain_Clicked(object sender, System.EventArgs e)
-        //{
-            
-        //    var builder = new Ionian();
-        //    var scale = builder.IonianBuilder("C");
-
-        //    DisplayAlert("Ionain Scale:", scale, "Cancel");
-        //}
+        async void Dorian_Clicked (object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dorian"));
+        }
     }
 }

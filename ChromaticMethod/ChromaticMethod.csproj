@@ -48,7 +48,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="CIonian.xaml">
+    <EmbeddedResource Include="CMajor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -85,10 +85,10 @@
     <Compile Include="CChordFinder.xaml.cs">
       <DependentUpon>CChordFinder.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CIonian.xaml.cs">
-      <DependentUpon>CIonian.xaml</DependentUpon>
+    <Compile Include="CMajor.cs">
+      <DependentUpon>CMajor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Ionian.cs" />
+    <Compile Include="Major.cs" />
     <Compile Include="DIonian.xaml.cs">
       <DependentUpon>DIonian.xaml</DependentUpon>
     </Compile>
