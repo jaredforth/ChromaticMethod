@@ -11,5 +11,10 @@ namespace ChromaticMethod
         {
             InitializeComponent();
         }
+
+        async void Ionain_Clicked (object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CIonian());
+        }
     }
 }

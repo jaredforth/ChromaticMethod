@@ -48,6 +48,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CIonian.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -69,6 +73,10 @@
     <Compile Include="CChordFinder.xaml.cs">
       <DependentUpon>CChordFinder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CIonian.xaml.cs">
+      <DependentUpon>CIonian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ionian.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
