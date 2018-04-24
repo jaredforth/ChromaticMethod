@@ -52,6 +52,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="DIonian.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DHome.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DScaleFinder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -77,6 +89,15 @@
       <DependentUpon>CIonian.xaml</DependentUpon>
     </Compile>
     <Compile Include="Ionian.cs" />
+    <Compile Include="DIonian.xaml.cs">
+      <DependentUpon>DIonian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DHome.xaml.cs">
+      <DependentUpon>DHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DScaleFinder.xaml.cs">
+      <DependentUpon>DScaleFinder.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

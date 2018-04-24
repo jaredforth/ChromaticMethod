@@ -23,7 +23,7 @@ namespace ChromaticMethod
 
         async void D_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new DHome());
         }
 
         async void E_Clicked(object sender, System.EventArgs e)

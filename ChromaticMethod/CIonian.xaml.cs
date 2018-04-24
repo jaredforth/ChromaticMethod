@@ -12,13 +12,13 @@ namespace ChromaticMethod
             InitializeComponent();
 
             var builder = new Ionian();
-            var scale = builder.IonianBuilder("C");
+            var scale = Ionian.IonianBuilder("C");
 
-            var test = "testing 1 2 3";
+            var layout = new StackLayout() {HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center};
+            var text = new Label() { Text = $"The C Ionian scale is: {scale}"};
 
-            this.Resources.Add("Scale", scale);
-
-            this.Resources.Add("Test", test);
+            layout.Children.Add(text);
+            Content = layout;
         }
     }
 }

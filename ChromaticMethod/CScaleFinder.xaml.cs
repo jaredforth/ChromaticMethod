@@ -16,5 +16,14 @@ namespace ChromaticMethod
         {
             await Navigation.PushAsync(new CIonian());
         }
+
+        //void Ionain_Clicked(object sender, System.EventArgs e)
+        //{
+            
+        //    var builder = new Ionian();
+        //    var scale = builder.IonianBuilder("C");
+
+        //    DisplayAlert("Ionain Scale:", scale, "Cancel");
+        //}
     }
 }
