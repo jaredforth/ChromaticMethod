@@ -67,8 +67,8 @@
                         <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="0"></Button>
                         <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="1"></Button>
                         <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="2"></Button>
-               
-                        <Label Text="Hungarian Major" Style="{StaticResource subHeader}" Grid.Row="16" Grid.ColumnSpan="4"></Label>
+
+                        <Label Text="Enigmatic Minor" Style="{StaticResource subHeader}" Grid.Row="16" Grid.ColumnSpan="4"></Label>
                         <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="0"></Button>
                         <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="1"></Button>
                         <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="2"></Button>
@@ -77,50 +77,14 @@
                         <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="1"></Button>
                         <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="2"></Button>
 
-                        <Label Text="Hungarian Minor" Style="{StaticResource subHeader}" Grid.Row="19" Grid.ColumnSpan="4"></Label>
+                        <Label Text="Whole Tone" Style="{StaticResource subHeader}" Grid.Row="19" Grid.ColumnSpan="4"></Label>
                         <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="0"></Button>
                         <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="1"></Button>
                         <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="2"></Button>
                         <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="3"></Button>
                         <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="0"></Button>
                         <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="1"></Button>
-                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="2"></Button>
-
-                        <Label Text="Neopolitan Minor" Style="{StaticResource subHeader}" Grid.Row="22" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="23" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="23" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="23" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="23" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="24" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="24" Grid.Column="1"></Button>
-                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="24" Grid.Column="2"></Button>
-
-                        <Label Text="Neopolitan Major" Style="{StaticResource subHeader}" Grid.Row="25" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="26" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="26" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="26" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="26" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="27" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="27" Grid.Column="1"></Button>
-                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="27" Grid.Column="2"></Button>
-
-                        <Label Text="Enigmatic Minor" Style="{StaticResource subHeader}" Grid.Row="28" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="29" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="29" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="29" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="29" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="30" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="30" Grid.Column="1"></Button>
-                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="30" Grid.Column="2"></Button>
-
-                        <Label Text="Whole Tone" Style="{StaticResource subHeader}" Grid.Row="31" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="32" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="32" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="32" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="32" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="33" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="33" Grid.Column="1"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="33" Grid.Column="2"></Button>
+                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="2"></Button>
                 </Grid>
         </ScrollView>
 </ContentPage>
