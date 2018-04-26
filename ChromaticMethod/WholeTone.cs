@@ -1,25 +1,25 @@
 ﻿using System;
 namespace ChromaticMethod
 {
-    public class Major
+    public class WholeTone
     {
-        public static string[] C = { "C", "D", "E", "F", "G", "A", "B" };
-        public static string[] Cs = { "C#", "D#", "E#", "F#", "G#", "A#", "B#" };
-        public static string[] Db = { "Db", "Eb", "F", "Gb", "Ab", "Bb", "C" };
-        public static string[] D = { "D", "E", "F#", "G", "A", "B", "C#" };
-        public static string[] Ds = { "D#", "E#", "F#", "G#", "A#", "C", "D" };
-        public static string[] Eb = { "Eb", "F", "G", "Ab", "Bb", "C", "D" };
-        public static string[] E = { "E", "F#", "G#", "A", "B", "C#", "D#" };
-        public static string[] F = { "F", "G", "A", "Bb", "C", "D", "E" };
-        public static string[] Fs = { "F#", "G#", "A#", "B", "C#", "D#", "E#" };
-        public static string[] Gb = { "Gb", "Ab", "Bb", "B", "Db", "Eb", "F" };
-        public static string[] G = { "G", "A", "B", "C", "D", "E", "F#" };
-        public static string[] Gs = { "G#", "A#", "B#", "C#", "D#", "E#", "G" };
-        public static string[] Ab = { "Ab", "Bb", "C", "Db", "Eb", "F", "G" };
-        public static string[] A = { "A", "B", "C#", "D", "E", "F#", "G#" };
-        public static string[] As = { "A#", "B#", "C#", "D#", "E#", "F#", "G#" };
-        public static string[] Bb = { "Bb", "Cb", "D", "Eb", "F", "G", "A" };
-        public static string[] B = { "B", "C#", "D#", "E", "F#", "G#", "A#" };
+        public static string[] C = { "C", "D", "E", "F#", "G#", "A#", "C" };
+        public static string[] Cs = { "C#", "D#", "F", "G", "A", "B", "C#" };
+        public static string[] Db = { "Db", "Eb", "F", "G", "A", "B", "Db" };
+        public static string[] D = { "D", "E", "F#", "G#", "A#", "C", "D" };
+        public static string[] Ds = { "D#", "E#", "G", "A", "B", "C#", "D#" };
+        public static string[] Eb = { "Eb", "F", "G", "A", "B", "Db", "Eb" };
+        public static string[] E = { "E", "F#", "G#", "A#", "B#", "D", "E" };
+        public static string[] F = { "F", "G", "A", "B", "C#", "D#", "F" };
+        public static string[] Fs = { "F#", "G#", "A#", "C", "D", "E", "F#" };
+        public static string[] Gb = { "Gb", "Ab", "Bb", "C", "D", "E", "Gb" };
+        public static string[] G = { "G", "A", "B", "C#", "D#", "F", "G" };
+        public static string[] Gs = { "G#", "A#", "B#", "D", "E", "F", "G#" };
+        public static string[] Ab = { "Ab", "Bb", "C", "D", "E", "F#", "Ab" };
+        public static string[] A = { "A", "B", "C#", "D#", "F", "G", "A" };
+        public static string[] As = { "A#", "B#", "C#", "E", "F", "G", "A#" };
+        public static string[] Bb = { "Bb", "Cb", "D", "E", "F#", "G#", "Bb" };
+        public static string[] B = { "B", "C#", "D#", "F", "G", "A", "B" };
 
         public static string ModeI(string Key)
         {

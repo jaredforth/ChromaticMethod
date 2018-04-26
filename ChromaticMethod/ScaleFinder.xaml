@@ -69,22 +69,22 @@
                         <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="2" Clicked="Melodic_MajorVII"></Button>
 
                         <Label Text="Enigmatic Minor" Style="{StaticResource subHeader}" Grid.Row="16" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="1"></Button>
-                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="2"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="0" Clicked="Enigmatic_MinorI"></Button>
+                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="1" Clicked="Enigmatic_MinorII"></Button>
+                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="2" Clicked="Enigmatic_MinorIII"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="3" Clicked="Enigmatic_MinorIV"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="0" Clicked="Enigmatic_MinorV"></Button>
+                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="1" Clicked="Enigmatic_MinorVI"></Button>
+                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="18" Grid.Column="2" Clicked="Enigmatic_MinorVII"></Button>
 
                         <Label Text="Whole Tone" Style="{StaticResource subHeader}" Grid.Row="19" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="1"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="2"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="0" Clicked="Whole_ToneI"></Button>
+                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="1" Clicked="Whole_ToneII"></Button>
+                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="2" Clicked="Whole_ToneIII"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="20" Grid.Column="3" Clicked="Whole_ToneIV"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="0" Clicked="Whole_ToneV"></Button>
+                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="1" Clicked="Whole_ToneVI"></Button>
+                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="21" Grid.Column="2" Clicked="Whole_ToneVII"></Button>
                 </Grid>
         </ScrollView>
 </ContentPage>

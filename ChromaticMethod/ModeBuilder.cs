@@ -1,25 +1,33 @@
 ﻿using System;
 namespace ChromaticMethod
 {
-    public class Major
+    public static class ModeBuilder
     {
-        public static string[] C = { "C", "D", "E", "F", "G", "A", "B" };
-        public static string[] Cs = { "C#", "D#", "E#", "F#", "G#", "A#", "B#" };
-        public static string[] Db = { "Db", "Eb", "F", "Gb", "Ab", "Bb", "C" };
-        public static string[] D = { "D", "E", "F#", "G", "A", "B", "C#" };
-        public static string[] Ds = { "D#", "E#", "F#", "G#", "A#", "C", "D" };
-        public static string[] Eb = { "Eb", "F", "G", "Ab", "Bb", "C", "D" };
-        public static string[] E = { "E", "F#", "G#", "A", "B", "C#", "D#" };
-        public static string[] F = { "F", "G", "A", "Bb", "C", "D", "E" };
-        public static string[] Fs = { "F#", "G#", "A#", "B", "C#", "D#", "E#" };
-        public static string[] Gb = { "Gb", "Ab", "Bb", "B", "Db", "Eb", "F" };
-        public static string[] G = { "G", "A", "B", "C", "D", "E", "F#" };
-        public static string[] Gs = { "G#", "A#", "B#", "C#", "D#", "E#", "G" };
-        public static string[] Ab = { "Ab", "Bb", "C", "Db", "Eb", "F", "G" };
-        public static string[] A = { "A", "B", "C#", "D", "E", "F#", "G#" };
-        public static string[] As = { "A#", "B#", "C#", "D#", "E#", "F#", "G#" };
-        public static string[] Bb = { "Bb", "Cb", "D", "Eb", "F", "G", "A" };
-        public static string[] B = { "B", "C#", "D#", "E", "F#", "G#", "A#" };
+        public static string[] C = Scales.Major("C");
+        public static string[] Cs = Scales.Major("C#");
+        public static string[] Db = Scales.Major("Db");
+        public static string[] D = Scales.Major("D");
+        public static string[] Ds = Scales.Major("D#"); 
+        public static string[] Eb = Scales.Major("Eb");
+        public static string[] E = Scales.Major("E");
+        public static string[] F = Scales.Major("F");
+        public static string[] Fs = Scales.Major("F#");
+        public static string[] Gb = Scales.Major("Gb");
+        public static string[] G = Scales.Major("G");
+        public static string[] Gs = Scales.Major("G#");
+        public static string[] Ab = Scales.Major("Ab");
+        public static string[] A = Scales.Major("A");
+        public static string[] As = Scales.Major("A#");
+        public static string[] Bb = Scales.Major("Bb");
+        public static string[] B = Scales.Major("B");
+
+        public static void ChooseMode(string Key, string ScaleType)
+        {
+            if (ScaleType == "Major")
+            {
+                
+            }
+        }
 
         public static string ModeI(string Key)
         {

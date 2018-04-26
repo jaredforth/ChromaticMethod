@@ -1015,5 +1015,68 @@ namespace ChromaticMethod
         {
             await Navigation.PushAsync(new CMajor("Melodic Major VII"));
         }
+
+        // Enigmatic Minor Scales 
+
+        async void Enigmatic_MinorI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Enigmatic Minor I"));
+        }
+        async void Enigmatic_MinorII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Enigmatic Minor I"));
+        }
+        async void Enigmatic_MinorIII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Enigmatic Minor III"));
+        }
+        async void Enigmatic_MinorIV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Enigmatic Minor IV"));
+        }
+        async void Enigmatic_MinorV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Enigmatic Minor V"));
+        }
+        async void Enigmatic_MinorVI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Enigmatic Minor VI"));
+        }
+        async void Enigmatic_MinorVII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Enigmatic Minor VII"));
+        }
+
+        // Whole Tone Scales
+
+
+        async void Whole_ToneI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Whole Tone I"));
+        }
+        async void Whole_ToneII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Whole Tone II"));
+        }
+        async void Whole_ToneIII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Whole Tone III"));
+        }
+        async void Whole_ToneIV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Whole Tone IV"));
+        }
+        async void Whole_ToneV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Whole Tone V"));
+        }
+        async void Whole_ToneVI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Whole Tone VI"));
+        }
+        async void Whole_ToneVII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Whole Tone VII"));
+        }
     }
 }
