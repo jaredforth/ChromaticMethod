@@ -37,11 +37,11 @@
                         <Button Text="Locrian" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="Locrian_Clicked"></Button>
 
                         <Label Text="Minor Pentatonic" Style="{StaticResource subHeader}" Grid.Row="4" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="0" Clicked="mPentI"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="1" Clicked="mPentII"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="2" Clicked="mPentIII"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="3" Clicked="mPentIV"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="0" Clicked="mPentV"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="0" Clicked="MiPentI"></Button>
+                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="1" Clicked="MiPentII"></Button>
+                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="2" Clicked="MiPentIII"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="3" Clicked="MiPentIV"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="0" Clicked="MiPentV"></Button>
 
                         <Label Text="Major Pentatonic" Style="{StaticResource subHeader}" Grid.Row="7" Grid.ColumnSpan="4"></Label>
                         <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="0" Clicked="MPentI"></Button>
@@ -51,22 +51,22 @@
                         <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="0" Clicked="MPentV"></Button>
 
                         <Label Text="Melodic Minor" Style="{StaticResource subHeader}" Grid.Row="10" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="1"></Button>
-                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="2"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="0" Clicked="Melodic_MinorI"></Button>
+                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="1" Clicked="Melodic_MinorII"></Button>
+                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="2" Clicked="Melodic_MinorIII"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="11" Grid.Column="3" Clicked="Melodic_MinorIV"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="0" Clicked="Melodic_MinorV"></Button>
+                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="1" Clicked="Melodic_MinorVI"></Button>
+                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="12" Grid.Column="2" Clicked="Melodic_MinorVII"></Button>
 
                         <Label Text="Melodic Major" Style="{StaticResource subHeader}" Grid.Row="13" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="0"></Button>
-                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="1"></Button>
-                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="2"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="3"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="0"></Button>
-                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="1"></Button>
-                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="2"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="0" Clicked="Melodic_MajorI"></Button>
+                        <Button Text="II" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="1" Clicked="Melodic_MajorII"></Button>
+                        <Button Text="III" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="2" Clicked="Melodic_MajorIII"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="14" Grid.Column="3" Clicked="Melodic_MajorIV"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="0" Clicked="Melodic_MajorV"></Button>
+                        <Button Text="VI" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="1" Clicked="Melodic_MajorVI"></Button>
+                        <Button Text="VII" Style="{StaticResource ButtonKey}" Grid.Row="15" Grid.Column="2" Clicked="Melodic_MajorVII"></Button>
 
                         <Label Text="Enigmatic Minor" Style="{StaticResource subHeader}" Grid.Row="16" Grid.ColumnSpan="4"></Label>
                         <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="17" Grid.Column="0"></Button>

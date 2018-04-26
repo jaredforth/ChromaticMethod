@@ -141,6 +141,111 @@ namespace ChromaticMethod
                 Content = layout;
             }
 
+
+            // Melodic Minor Scales 
+
+
+            if (scaleType == "Melodic Minor I")
+            {
+                var scale = MelodicMinor.ModeI("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Minor II")
+            {
+                var scale = MelodicMinor.ModeII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Minor III")
+            {
+                var scale = MelodicMinor.ModeIII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Minor IV")
+            {
+                var scale = MelodicMinor.ModeIV("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Minor V")
+            {
+                var scale = MelodicMinor.ModeV("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Minor VI")
+            {
+                var scale = MelodicMinor.ModeVI("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Minor VII")
+            {
+                var scale = MelodicMinor.ModeVII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+
+            // Melodic Major 
+
+            if (scaleType == "Melodic Major I")
+            {
+                var scale = MelodicMajor.ModeI("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Major II")
+            {
+                var scale = MelodicMajor.ModeII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Major III")
+            {
+                var scale = MelodicMajor.ModeIII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Major IV")
+            {
+                var scale = MelodicMajor.ModeIV("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Major V")
+            {
+                var scale = MelodicMajor.ModeV("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Major VI")
+            {
+                var scale = MelodicMajor.ModeVI("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            else if (scaleType == "Melodic Major VII")
+            {
+                var scale = MelodicMajor.ModeVII("C");
+                var text = new Label() { Text = $"The C {scaleType} scale is: {scale}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
         }
     }
 }

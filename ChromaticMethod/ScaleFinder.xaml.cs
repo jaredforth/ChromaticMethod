@@ -420,7 +420,7 @@ namespace ChromaticMethod
 
         // Minor Pentatonic Scales 
 
-        async void mPentI (object sender, System.EventArgs e)
+        async void MiPentI (object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -473,7 +473,7 @@ namespace ChromaticMethod
                     throw new NotSupportedException();
             }
         }
-        async void mPentII(object sender, System.EventArgs e)
+        async void MiPentII(object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -526,7 +526,7 @@ namespace ChromaticMethod
                     throw new NotSupportedException();
             }
         }
-        async void mPentIII(object sender, System.EventArgs e)
+        async void MiPentIII(object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -579,7 +579,7 @@ namespace ChromaticMethod
                     throw new NotSupportedException();
             }
         }
-        async void mPentIV(object sender, System.EventArgs e)
+        async void MiPentIV(object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -632,7 +632,7 @@ namespace ChromaticMethod
                     throw new NotSupportedException();
             }
         }
-        async void mPentV(object sender, System.EventArgs e)
+        async void MiPentV(object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -952,6 +952,68 @@ namespace ChromaticMethod
                 default:
                     throw new NotSupportedException();
             }
+        }
+
+        // Melodic Minor Scales 
+
+        async void Melodic_MinorI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Minor I"));
+        }
+        async void Melodic_MinorII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Minor II"));
+        }
+        async void Melodic_MinorIII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Minor III"));
+        }
+        async void Melodic_MinorIV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Minor IV"));
+        }
+        async void Melodic_MinorV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Minor V"));
+        }
+        async void Melodic_MinorVI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Minor VI"));
+        }
+        async void Melodic_MinorVII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Minor VII"));
+        }
+
+        // Melodic Major Scales 
+
+        async void Melodic_MajorI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Major I"));
+        }
+        async void Melodic_MajorII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Major II"));
+        }
+        async void Melodic_MajorIII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Major III"));
+        }
+        async void Melodic_MajorIV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Major IV"));
+        }
+        async void Melodic_MajorV(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Major V"));
+        }
+        async void Melodic_MajorVI(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Major VI"));
+        }
+        async void Melodic_MajorVII(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Melodic Major VII"));
         }
     }
 }
