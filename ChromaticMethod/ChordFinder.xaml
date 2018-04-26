@@ -1,29 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Title="Chord Finder" Icon="note.png" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.ChordFinder">
-            <ContentPage.Resources>
-                <ResourceDictionary>
-                    <Style x:Key="Header" TargetType="Label">
-                        <Setter Property="TextColor" Value="Black"></Setter>
-                        <Setter Property="FontSize" Value="30"></Setter>
-                        <Setter Property="HorizontalOptions" Value="Center"></Setter>
-                        <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
-                    </Style>
-                    <Style x:Key="subHeader" TargetType="Label">
-                        <Setter Property="TextColor" Value="Black"></Setter>
-                        <Setter Property="FontSize" Value="20"></Setter>
-                        <Setter Property="HorizontalOptions" Value="Center"></Setter>
-                        <Setter Property="Margin" Value="0, 0, 0, 20"></Setter>
-                    </Style>
-                     <Style x:Key="ButtonKey" TargetType="Button">
-                        <Setter Property="BackgroundColor" Value="LightGray"></Setter>
-                        <Setter Property="FontSize" Value="15"></Setter>
-                        <Setter Property="Margin" Value="75, 5, 75, 5"></Setter>
-                    </Style>
-                </ResourceDictionary>
-            </ContentPage.Resources>
-            <ScrollView>
-                <StackLayout>
-                    <Label Text="Chord Finder" Style="{StaticResource Header}"></Label>
-                </StackLayout>
-            </ScrollView>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="Header" TargetType="Label">
+                    <Setter Property="TextColor" Value="Black"></Setter>
+                    <Setter Property="FontSize" Value="30"></Setter>
+                    <Setter Property="HorizontalOptions" Value="Center"></Setter>
+             </Style>
+             <Style x:Key="subHeader" TargetType="Label">
+                    <Setter Property="TextColor" Value="Black"></Setter>
+                    <Setter Property="FontSize" Value="20"></Setter>
+                    <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                    <Setter Property="Margin" Value="0, 20, 0, 20"></Setter>
+              </Style>                   
+              <Style x:Key="ButtonKey" TargetType="Button">
+                    <Setter Property="BackgroundColor" Value="LightGray"></Setter>
+                    <Setter Property="FontSize" Value="15"></Setter>
+               </Style>
+               <Style x:Key="ScaleGroup" TargetType="Grid">
+                    <Setter Property="BackgroundColor" Value="LightGray"></Setter>
+               </Style> 
+            </ResourceDictionary>
+        </ContentPage.Resources>
+        <ScrollView>
+                 <Grid ColumnSpacing="5" RowSpacing="5" Padding="20, 0, 20, 0">
+            
+                        <Label Text="Chord Finder" Style="{StaticResource Header}" Grid.ColumnSpan="4" Grid.Row="0"></Label>
+                
+                        <Label Text="Triads" Style="{StaticResource subHeader}" Grid.Row="1" Grid.ColumnSpan="4"></Label>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
+                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="TriadII_Clicked"></Button>
+                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2" Clicked="TriadIII_Clicked"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3" Clicked="TriadIV_Clicked"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0" Clicked="TriadV_Clicked"></Button>
+                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1" Clicked="TriadVI_Clicked"></Button>
+                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
+
+                        <Label Text="Dominant 7ths" Style="{StaticResource subHeader}" Grid.Row="4" Grid.ColumnSpan="4"></Label>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
+                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="TriadII_Clicked"></Button>
+                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2" Clicked="TriadIII_Clicked"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3" Clicked="TriadIV_Clicked"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0" Clicked="TriadV_Clicked"></Button>
+                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1" Clicked="TriadVI_Clicked"></Button>
+                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
+
+                        <Label Text="Major and Minor 7ths" Style="{StaticResource subHeader}" Grid.Row="7" Grid.ColumnSpan="4"></Label>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
+                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="TriadII_Clicked"></Button>
+                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2" Clicked="TriadIII_Clicked"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3" Clicked="TriadIV_Clicked"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0" Clicked="TriadV_Clicked"></Button>
+                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1" Clicked="TriadVI_Clicked"></Button>
+                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
+
+                        <Label Text="Dominant 9ths" Style="{StaticResource subHeader}" Grid.Row="10" Grid.ColumnSpan="4"></Label>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
+                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="TriadII_Clicked"></Button>
+                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2" Clicked="TriadIII_Clicked"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3" Clicked="TriadIV_Clicked"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0" Clicked="TriadV_Clicked"></Button>
+                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1" Clicked="TriadVI_Clicked"></Button>
+                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
+
+                        <Label Text="Major and Minor 9ths" Style="{StaticResource subHeader}" Grid.Row="13" Grid.ColumnSpan="4"></Label>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
+                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="TriadII_Clicked"></Button>
+                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2" Clicked="TriadIII_Clicked"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3" Clicked="TriadIV_Clicked"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0" Clicked="TriadV_Clicked"></Button>
+                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1" Clicked="TriadVI_Clicked"></Button>
+                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
+                </Grid>
+        </ScrollView>
 </ContentPage>

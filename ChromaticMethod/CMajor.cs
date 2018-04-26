@@ -351,7 +351,6 @@ namespace ChromaticMethod
                 layout.Children.Add(text);
                 Content = layout;
             }
-
         }
     }
 }
