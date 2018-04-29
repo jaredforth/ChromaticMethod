@@ -5,14 +5,11 @@ using Xamarin.Forms;
 
 namespace ChromaticMethod
 {
-    public partial class CHome : TabbedPage
+    public partial class CHome : ContentPage
     {
         public CHome()
         {
             InitializeComponent();
-
-            this.Children.Add(new ScaleFinder("C"));
-            this.Children.Add(new ChordFinder("C"));
         }
     }
 }

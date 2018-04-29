@@ -32,10 +32,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="CHome.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="ScaleFinder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -48,6 +44,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="KeyAnalyzer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -56,9 +56,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="CHome.xaml.cs">
-      <DependentUpon>CHome.xaml</DependentUpon>
     </Compile>
     <Compile Include="ScaleFinder.xaml.cs">
       <DependentUpon>ScaleFinder.xaml</DependentUpon>
@@ -84,6 +81,9 @@
     <Compile Include="DomSevenths.cs" />
     <Compile Include="Ninths.cs" />
     <Compile Include="DomNinths.cs" />
+    <Compile Include="KeyAnalyzer.cs">
+      <DependentUpon>KeyAnalyzer.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

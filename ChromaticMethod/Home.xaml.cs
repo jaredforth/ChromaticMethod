@@ -18,37 +18,37 @@ namespace ChromaticMethod
 
         async void C_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new KeyAnalyzer("C"));
         }
 
         async void D_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new KeyAnalyzer("D"));
         }
 
         async void E_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new KeyAnalyzer("E"));
         }
 
         async void F_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new KeyAnalyzer("F"));
         }
 
         async void G_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new KeyAnalyzer("G"));
         }
 
         async void A_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new KeyAnalyzer("A"));
         }
 
         async void B_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CHome());
+            await Navigation.PushAsync(new KeyAnalyzer("B"));
         }
 
         async void CsDb_Clicked(object sender, System.EventArgs e)

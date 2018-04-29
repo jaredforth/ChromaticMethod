@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TabbedPage Title="C Major" 
-            xmlns:local="clr-namespace:ChromaticMethod; assembly:ChromaticMethod"
+<TabbedPage xmlns:local="clr-namespace:ChromaticMethod; assembly:ChromaticMethod"
             xmlns="http://xamarin.com/schemas/2014/forms" 
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-            x:Class="ChromaticMethod.CHome">
-    <ContentPage Title="Key Analyzer" Icon="clef.png" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.KeyAnalyzer">
+            x:Class="ChromaticMethod.KeyAnalyzer">
+   <!-- <ContentPage Title="Key Analyzer" Icon="clef.png" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ChromaticMethod.KeyAnalyzer">
             <ContentPage.Resources>
                 <ResourceDictionary>
                     <Style x:Key="Header" TargetType="Label">
@@ -28,8 +27,14 @@
             </ContentPage.Resources>
             <ScrollView>
                 <StackLayout>
-                    <Label Text="Key Analyzer" Style="{StaticResource Header}"></Label>
+                    <Label Text="Key Analyzer" Style="{StaticResource Header}"></Label>       
+                    <Label Text="C Major" Style="{StaticResource subHeader}"></Label>
+                    <Label Text="Key signature image here"></Label>
+                    <Label Text="The major scale in C is: scale here"></Label>
+                    <Label Text="The diatonic chords are: chords here"></Label>
+                    <Label Text="Search bar here"></Label>
+                    <Button Text="Search Key of C" Clicked="Search_Key"></Button>
                 </StackLayout>
             </ScrollView>
-    </ContentPage>
+    </ContentPage>-->
 </TabbedPage>
