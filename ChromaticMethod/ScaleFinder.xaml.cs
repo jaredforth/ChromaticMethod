@@ -2578,7 +2578,7 @@ namespace ChromaticMethod
                 case "D#":
                     await Navigation.PushAsync(new DMajor("Whole Tone VII"));
                     break;
-                case "Eb"
+                case "Eb":
                     await Navigation.PushAsync(new DMajor("Whole Tone VII"));
                     break;
                 case "E":
