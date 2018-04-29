@@ -251,15 +251,15 @@ namespace ChromaticMethod
         {
             if (Key == "C")
             {
-                var I = C[0];
-                var II = C[1];
-                var III = C[2];
-                var IV = C[3];
-                var V = C[4];
-                var VI = C[5];
-                var VII = C[6];
+                var I = D[0];
+                var II = D[1];
+                var III = D[2];
+                var IV = D[3];
+                var V = D[4];
+                var VI = D[5];
+                var VII = D[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "C#")
@@ -272,7 +272,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Db")
@@ -285,7 +285,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D")
@@ -298,7 +298,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D#")
@@ -311,7 +311,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Eb")
@@ -324,7 +324,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "E")
@@ -337,7 +337,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F")
@@ -350,7 +350,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F#")
@@ -363,7 +363,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Gb")
@@ -376,7 +376,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G")
@@ -389,7 +389,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G#")
@@ -402,7 +402,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Ab")
@@ -415,7 +415,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A")
@@ -428,7 +428,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A#")
@@ -441,7 +441,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Bb")
@@ -454,7 +454,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "B")
@@ -467,7 +467,7 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var chord = $"{II} {IV} {VI} {I}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
 
@@ -477,15 +477,15 @@ namespace ChromaticMethod
         {
             if (Key == "C")
             {
-                var I = C[0];
-                var II = C[1];
-                var III = C[2];
-                var IV = C[3];
-                var V = C[4];
-                var VI = C[5];
-                var VII = C[6];
+                var I = E[0];
+                var II = E[1];
+                var III = E[2];
+                var IV = E[3];
+                var V = E[4];
+                var VI = E[5];
+                var VII = E[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "C#")
@@ -498,7 +498,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Db")
@@ -511,7 +511,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D")
@@ -524,7 +524,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D#")
@@ -537,7 +537,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Eb")
@@ -550,7 +550,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "E")
@@ -563,7 +563,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F")
@@ -576,7 +576,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F#")
@@ -589,7 +589,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Gb")
@@ -602,7 +602,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G")
@@ -615,7 +615,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G#")
@@ -628,7 +628,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Ab")
@@ -641,7 +641,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A")
@@ -654,7 +654,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A#")
@@ -667,7 +667,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Bb")
@@ -680,7 +680,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "B")
@@ -693,7 +693,7 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var chord = $"{III} {V} {VII} {II}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
 
@@ -703,15 +703,15 @@ namespace ChromaticMethod
         {
             if (Key == "C")
             {
-                var I = C[0];
-                var II = C[1];
-                var III = C[2];
-                var IV = C[3];
-                var V = C[4];
-                var VI = C[5];
-                var VII = C[6];
+                var I = F[0];
+                var II = F[1];
+                var III = F[2];
+                var IV = F[3];
+                var V = F[4];
+                var VI = F[5];
+                var VII = F[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "C#")
@@ -724,7 +724,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Db")
@@ -737,7 +737,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D")
@@ -750,7 +750,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D#")
@@ -763,7 +763,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Eb")
@@ -776,7 +776,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "E")
@@ -789,7 +789,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F")
@@ -802,7 +802,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F#")
@@ -815,7 +815,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Gb")
@@ -828,7 +828,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G")
@@ -841,7 +841,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G#")
@@ -854,7 +854,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Ab")
@@ -867,7 +867,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A")
@@ -880,7 +880,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A#")
@@ -893,7 +893,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Bb")
@@ -906,7 +906,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "B")
@@ -919,7 +919,7 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var chord = $"{IV} {VI} {I} {III}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
 
@@ -929,15 +929,15 @@ namespace ChromaticMethod
         {
             if (Key == "C")
             {
-                var I = C[0];
-                var II = C[1];
-                var III = C[2];
-                var IV = C[3];
-                var V = C[4];
-                var VI = C[5];
-                var VII = C[6];
+                var I = G[0];
+                var II = G[1];
+                var III = G[2];
+                var IV = G[3];
+                var V = G[4];
+                var VI = G[5];
+                var VII = G[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "C#")
@@ -950,7 +950,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Db")
@@ -963,7 +963,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D")
@@ -976,7 +976,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D#")
@@ -989,7 +989,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Eb")
@@ -1002,7 +1002,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "E")
@@ -1015,7 +1015,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F")
@@ -1028,7 +1028,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F#")
@@ -1041,7 +1041,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Gb")
@@ -1054,7 +1054,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G")
@@ -1067,7 +1067,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G#")
@@ -1080,7 +1080,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Ab")
@@ -1093,7 +1093,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A")
@@ -1106,7 +1106,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A#")
@@ -1119,7 +1119,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Bb")
@@ -1132,7 +1132,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "B")
@@ -1145,7 +1145,7 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var chord = $"{V} {VII} {II} {IV}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
 
@@ -1155,15 +1155,15 @@ namespace ChromaticMethod
         {
             if (Key == "C")
             {
-                var I = C[0];
-                var II = C[1];
-                var III = C[2];
-                var IV = C[3];
-                var V = C[4];
-                var VI = C[5];
-                var VII = C[6];
+                var I = A[0];
+                var II = A[1];
+                var III = A[2];
+                var IV = A[3];
+                var V = A[4];
+                var VI = A[5];
+                var VII = A[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "C#")
@@ -1176,7 +1176,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Db")
@@ -1189,7 +1189,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D")
@@ -1202,7 +1202,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D#")
@@ -1215,7 +1215,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Eb")
@@ -1228,7 +1228,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "E")
@@ -1241,7 +1241,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F")
@@ -1254,7 +1254,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F#")
@@ -1267,7 +1267,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Gb")
@@ -1280,7 +1280,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G")
@@ -1293,7 +1293,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G#")
@@ -1306,7 +1306,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Ab")
@@ -1319,7 +1319,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A")
@@ -1332,7 +1332,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A#")
@@ -1345,7 +1345,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Bb")
@@ -1358,7 +1358,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "B")
@@ -1371,7 +1371,7 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var chord = $"{VI} {I} {III} {V}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
 
@@ -1381,15 +1381,15 @@ namespace ChromaticMethod
         {
             if (Key == "C")
             {
-                var I = C[0];
-                var II = C[1];
-                var III = C[2];
-                var IV = C[3];
-                var V = C[4];
-                var VI = C[5];
-                var VII = C[6];
+                var I = B[0];
+                var II = B[1];
+                var III = B[2];
+                var IV = B[3];
+                var V = B[4];
+                var VI = B[5];
+                var VII = B[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "C#")
@@ -1402,7 +1402,7 @@ namespace ChromaticMethod
                 var VI = Cs[5];
                 var VII = Cs[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Db")
@@ -1415,7 +1415,7 @@ namespace ChromaticMethod
                 var VI = Db[5];
                 var VII = Db[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D")
@@ -1428,7 +1428,7 @@ namespace ChromaticMethod
                 var VI = D[5];
                 var VII = D[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "D#")
@@ -1441,7 +1441,7 @@ namespace ChromaticMethod
                 var VI = Ds[5];
                 var VII = Ds[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Eb")
@@ -1454,7 +1454,7 @@ namespace ChromaticMethod
                 var VI = Eb[5];
                 var VII = Eb[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "E")
@@ -1467,7 +1467,7 @@ namespace ChromaticMethod
                 var VI = E[5];
                 var VII = E[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F")
@@ -1480,7 +1480,7 @@ namespace ChromaticMethod
                 var VI = F[5];
                 var VII = F[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "F#")
@@ -1493,7 +1493,7 @@ namespace ChromaticMethod
                 var VI = Fs[5];
                 var VII = Fs[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Gb")
@@ -1506,7 +1506,7 @@ namespace ChromaticMethod
                 var VI = Gb[5];
                 var VII = Gb[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G")
@@ -1519,7 +1519,7 @@ namespace ChromaticMethod
                 var VI = G[5];
                 var VII = G[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "G#")
@@ -1532,7 +1532,7 @@ namespace ChromaticMethod
                 var VI = Gs[5];
                 var VII = Gs[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Ab")
@@ -1545,7 +1545,7 @@ namespace ChromaticMethod
                 var VI = Ab[5];
                 var VII = Ab[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A")
@@ -1558,7 +1558,7 @@ namespace ChromaticMethod
                 var VI = A[5];
                 var VII = A[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "A#")
@@ -1571,7 +1571,7 @@ namespace ChromaticMethod
                 var VI = As[5];
                 var VII = As[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "Bb")
@@ -1584,7 +1584,7 @@ namespace ChromaticMethod
                 var VI = Bb[5];
                 var VII = Bb[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
             else if (Key == "B")
@@ -1597,7 +1597,7 @@ namespace ChromaticMethod
                 var VI = B[5];
                 var VII = B[6];
 
-                var chord = $"{VII} {II} {IV} {VI}";
+                var chord = $"{I} {III} {V} {VII}";
                 return chord;
             }
 
