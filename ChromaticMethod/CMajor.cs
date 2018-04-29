@@ -510,6 +510,59 @@ namespace ChromaticMethod
                 layout.Children.Add(text);
                 Content = layout;
             }
+
+
+            // Major and Minor 9ths
+
+            if (type == "9th I")
+            {
+                var chord = Ninths.NinthI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "9th II")
+            {
+                var chord = Ninths.NinthII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "9th III")
+            {
+                var chord = Ninths.NinthIII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "9th IV")
+            {
+                var chord = Ninths.NinthIV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "9th V")
+            {
+                var chord = Ninths.NinthV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "9th VI")
+            {
+                var chord = Ninths.NinthVI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "9th VII")
+            {
+                var chord = Ninths.NinthVII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
         }
     }
 }

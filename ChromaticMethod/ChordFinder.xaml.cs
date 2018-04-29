@@ -106,5 +106,36 @@ namespace ChromaticMethod
         {
             await Navigation.PushAsync(new CMajor("7th VII"));
         }
+
+        // Major and Minor 9ths 
+
+        async void NinthI_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("9th I"));
+        }
+        async void NinthII_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("9th II"));
+        }
+        async void NinthIII_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("9th III"));
+        }
+        async void NinthIV_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("9th IV"));
+        }
+        async void NinthV_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("9th V"));
+        }
+        async void NinthVI_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("9th VI"));
+        }
+        async void NinthVII_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("9th VII"));
+        }
     }
 }
