@@ -958,88 +958,415 @@ namespace ChromaticMethod
 
         async void Melodic_MinorI(object sender, System.EventArgs e)
         {
-            if (Key == "C")
+            switch (Key)
             {
-                await Navigation.PushAsync(new CMajor("Melodic Minor I"));
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Melodic Minor I"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
-            else if (Key == "D")
-            {
-                await Navigation.PushAsync(new DMajor("Melodic Minor I"));
-            }
-
         }
         async void Melodic_MinorII(object sender, System.EventArgs e)
         {
-            if (Key == "C")
+            switch (Key)
             {
-                await Navigation.PushAsync(new CMajor("Melodic Minor II"));
-            }
-            else if (Key == "D")
-            {
-                await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Melodic Minor II"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MinorIII(object sender, System.EventArgs e)
         {
-            if (Key == "C")
+            switch (Key)
             {
-                await Navigation.PushAsync(new CMajor("Melodic Minor III"));
-            }
-            else if (Key == "D")
-            {
-                await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Melodic Minor III"));
+                    break;
+                case "C#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MinorIV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Minor IV"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MinorV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Minor V"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Minor V"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MinorVI(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Minor VI"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MinorVII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Minor VII"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
 
@@ -1047,94 +1374,415 @@ namespace ChromaticMethod
 
         async void Melodic_MajorI(object sender, System.EventArgs e)
         {
-
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Major I"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Major I"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MajorII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Major II"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Major II"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MajorIII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Major III"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Major III"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MajorIV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
-                    await Navigation.PushAsync(new CMajor("Melodic Major VI"));
-                }
-                else if (Key == "D")
-                {
+                case "C":
+                    await Navigation.PushAsync(new CMajor("Melodic Major IV"));
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Major IV"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MajorV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Major V"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Major V"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MajorVI(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Major VI"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Major VI"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Melodic_MajorVII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Melodic Major VII"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Melodic Major VII"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
 
@@ -1142,93 +1790,415 @@ namespace ChromaticMethod
 
         async void Enigmatic_MinorI(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Enigmatic Minor I"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Enigmatic_MinorII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Enigmatic Minor II"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Enigmatic_MinorIII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Enigmatic Minor III"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Enigmatic_MinorIV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Enigmatic Minor IV"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Enigmatic_MinorV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Enigmatic Minor V"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Enigmatic_MinorVI(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Enigmatic Minor VI"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Enigmatic_MinorVII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Enigmatic Minor VII"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
 
@@ -1237,93 +2207,415 @@ namespace ChromaticMethod
 
         async void Whole_ToneI(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Whole Tone I"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Whole Tone I"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Whole_ToneII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Whole Tone II"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Whole Tone II"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Whole_ToneIII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Whole Tone III"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Whole Tone III"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Whole_ToneIV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Whole Tone IV"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Whole Tone IV"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Whole_ToneV(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Whole Tone V"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Whole Tone V"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Whole_ToneVI(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Whole Tone VI"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Whole Tone VI"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "Eb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
         async void Whole_ToneVII(object sender, System.EventArgs e)
         {
+            switch (Key)
             {
-                if (Key == "C")
-                {
+                case "C":
                     await Navigation.PushAsync(new CMajor("Whole Tone VII"));
-                }
-                else if (Key == "D")
-                {
+                    break;
+                case "C#":
                     await Navigation.PushAsync(new DMajor("Whole Tone VII"));
-                }
+                    break;
+                case "Db":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "D":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "D#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "Eb"
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "E":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "F":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "F#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "Gb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "G":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "G#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "Ab":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "A#":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "Bb":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                case "B":
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                    break;
+                default:
+                    throw new NotSupportedException();
             }
         }
     }
