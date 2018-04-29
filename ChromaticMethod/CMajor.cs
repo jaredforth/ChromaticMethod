@@ -404,6 +404,112 @@ namespace ChromaticMethod
                 layout.Children.Add(text);
                 Content = layout;
             }
+
+
+            // Dominant 7ths
+
+            if (type == "Dom 7th I")
+            {
+                var chord = DomSevenths.SeventhI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 7th II")
+            {
+                var chord = DomSevenths.SeventhII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 7th III")
+            {
+                var chord = DomSevenths.SeventhIII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 7th IV")
+            {
+                var chord = DomSevenths.SeventhIV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 7th V")
+            {
+                var chord = DomSevenths.SeventhV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 7th VI")
+            {
+                var chord = DomSevenths.SeventhVI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 7th VII")
+            {
+                var chord = DomSevenths.SeventhVII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+
+
+            // Major and Minor 7ths
+
+            if (type == "7th I")
+            {
+                var chord = Sevenths.SeventhI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "7th II")
+            {
+                var chord = Sevenths.SeventhII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "7th III")
+            {
+                var chord = Sevenths.SeventhIII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "7th IV")
+            {
+                var chord = Sevenths.SeventhIV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "7th V")
+            {
+                var chord = Sevenths.SeventhV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "7th VI")
+            {
+                var chord = Sevenths.SeventhVI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "7th VII")
+            {
+                var chord = Sevenths.SeventhVII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
         }
     }
 }

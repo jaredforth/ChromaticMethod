@@ -37,22 +37,22 @@
                         <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
 
                         <Label Text="Dominant 7ths" Style="{StaticResource subHeader}" Grid.Row="4" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
-                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="TriadII_Clicked"></Button>
-                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2" Clicked="TriadIII_Clicked"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3" Clicked="TriadIV_Clicked"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0" Clicked="TriadV_Clicked"></Button>
-                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1" Clicked="TriadVI_Clicked"></Button>
-                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="0" Clicked="DomSeventhI_Clicked"></Button>
+                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="1" Clicked="DomSeventhII_Clicked"></Button>
+                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="2" Clicked="DomSeventhIII_Clicked"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="5" Grid.Column="3" Clicked="DomSeventhIV_Clicked"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="0" Clicked="DomSeventhV_Clicked"></Button>
+                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="1" Clicked="DomSeventhVI_Clicked"></Button>
+                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="6" Grid.Column="2" Clicked="DomSeventhVII_Clicked"></Button>
 
                         <Label Text="Major and Minor 7ths" Style="{StaticResource subHeader}" Grid.Row="7" Grid.ColumnSpan="4"></Label>
-                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
-                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="1" Clicked="TriadII_Clicked"></Button>
-                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="2" Clicked="TriadIII_Clicked"></Button>
-                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="3" Clicked="TriadIV_Clicked"></Button>
-                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="0" Clicked="TriadV_Clicked"></Button>
-                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="1" Clicked="TriadVI_Clicked"></Button>
-                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="3" Grid.Column="2" Clicked="TriadVII_Clicked"></Button>
+                        <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="0" Clicked="SeventhI_Clicked"></Button>
+                        <Button Text="ii" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="1" Clicked="SeventhII_Clicked"></Button>
+                        <Button Text="iii" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="2" Clicked="SeventhIII_Clicked"></Button>
+                        <Button Text="IV" Style="{StaticResource ButtonKey}" Grid.Row="8" Grid.Column="3" Clicked="SeventhIV_Clicked"></Button>
+                        <Button Text="V" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="0" Clicked="SeventhV_Clicked"></Button>
+                        <Button Text="vi" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="1" Clicked="SeventhVI_Clicked"></Button>
+                        <Button Text="vii" Style="{StaticResource ButtonKey}" Grid.Row="9" Grid.Column="2" Clicked="SeventhVII_Clicked"></Button>
 
                         <Label Text="Dominant 9ths" Style="{StaticResource subHeader}" Grid.Row="10" Grid.ColumnSpan="4"></Label>
                         <Button Text="I" Style="{StaticResource ButtonKey}" Grid.Row="2" Grid.Column="0" Clicked="TriadI_Clicked"></Button>
