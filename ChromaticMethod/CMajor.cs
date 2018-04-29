@@ -511,7 +511,6 @@ namespace ChromaticMethod
                 Content = layout;
             }
 
-
             // Major and Minor 9ths
 
             if (type == "9th I")
@@ -559,6 +558,59 @@ namespace ChromaticMethod
             if (type == "9th VII")
             {
                 var chord = Ninths.NinthVII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+
+
+            // Dominant 9ths
+
+            if (type == "Dom 9th I")
+            {
+                var chord = DomNinths.NinthI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 9th II")
+            {
+                var chord = DomNinths.NinthII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 9th III")
+            {
+                var chord = DomNinths.NinthIII("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 9th IV")
+            {
+                var chord = DomNinths.NinthIV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 9th V")
+            {
+                var chord = DomNinths.NinthV("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 9th VI")
+            {
+                var chord = DomNinths.NinthVI("C");
+                var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
+                layout.Children.Add(text);
+                Content = layout;
+            }
+            if (type == "Dom 9th VII")
+            {
+                var chord = DomNinths.NinthVII("C");
                 var text = new Label() { Text = $"The C {type} chord is: \n {chord}" };
                 layout.Children.Add(text);
                 Content = layout;

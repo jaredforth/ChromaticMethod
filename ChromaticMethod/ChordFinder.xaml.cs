@@ -107,6 +107,39 @@ namespace ChromaticMethod
             await Navigation.PushAsync(new CMajor("7th VII"));
         }
 
+
+        // Dominant 9ths 
+
+        async void DomNinthI_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dom 9th I"));
+        }
+        async void DomNinthII_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dom 9th II"));
+        }
+        async void DomNinthIII_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dom 9th III"));
+        }
+        async void DomNinthIV_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dom 9th IV"));
+        }
+        async void DomNinthV_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dom 9th V"));
+        }
+        async void DomNinthVI_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dom 9th VI"));
+        }
+        async void DomNinthVII_Clicked(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new CMajor("Dom 9th VII"));
+        }
+
+
         // Major and Minor 9ths 
 
         async void NinthI_Clicked(object sender, System.EventArgs e)

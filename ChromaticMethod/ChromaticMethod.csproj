@@ -83,6 +83,7 @@
     <Compile Include="Sevenths.cs" />
     <Compile Include="DomSevenths.cs" />
     <Compile Include="Ninths.cs" />
+    <Compile Include="DomNinths.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
