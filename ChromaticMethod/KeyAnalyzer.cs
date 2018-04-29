@@ -36,6 +36,182 @@ namespace ChromaticMethod
                 layout.Children.Add(search);
                 page.Content = layout;
             }
+            else if (Key == "C#")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "Db")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "D")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "D#")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "Eb")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "E")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "F")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "F#")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "Gb")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "G")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "G#")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "Ab")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "A")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "A#")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "Bb")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
+            else if (Key == "B")
+            {
+                var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };
+                var chords = new Label() { Text = $"The {Key} diatonic triads are {Triads.TriadI(Key)}" };
+                var search = new Button { Text = $"Search Key of {Key}" };
+                layout.Children.Add(scale);
+                layout.Children.Add(chords);
+                layout.Children.Add(searchHeader);
+                layout.Children.Add(search);
+                page.Content = layout;
+            }
 
             this.Children.Add(page);
             this.Children.Add(new ScaleFinder(Key));

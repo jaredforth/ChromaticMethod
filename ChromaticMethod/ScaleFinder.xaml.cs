@@ -19,7 +19,7 @@ namespace ChromaticMethod
 
         // Major Scales 
 
-        async void Ionain_Clicked (object sender, System.EventArgs e)
+        async void Ionain_Clicked(object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -33,7 +33,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Ionian"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Ionian"));
+                    await Navigation.PushAsync(new DMajor("Ionian"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Ionian"));
@@ -76,7 +76,7 @@ namespace ChromaticMethod
             }
         }
 
-        async void Dorian_Clicked (object sender, System.EventArgs e)
+        async void Dorian_Clicked(object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -90,7 +90,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Dorian"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Dorian"));
+                    await Navigation.PushAsync(new DMajor("Dorian"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Dorian"));
@@ -147,7 +147,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Phrygian"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Phrygian"));
+                    await Navigation.PushAsync(new DMajor("Phrygian"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Phrygian"));
@@ -204,7 +204,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Lydian"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Lydian"));
+                    await Navigation.PushAsync(new DMajor("Lydian"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Lydian"));
@@ -261,7 +261,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Mixolydian"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Mixolydian"));
+                    await Navigation.PushAsync(new DMajor("Mixolydian"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Mixolydian"));
@@ -318,7 +318,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Aolian"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Aolian"));
+                    await Navigation.PushAsync(new DMajor("Aolian"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Aolian"));
@@ -375,7 +375,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Locrian"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Locrian"));
+                    await Navigation.PushAsync(new DMajor("Locrian"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Locrian"));
@@ -420,7 +420,7 @@ namespace ChromaticMethod
 
         // Minor Pentatonic Scales 
 
-        async void MiPentI (object sender, System.EventArgs e)
+        async void MiPentI(object sender, System.EventArgs e)
         {
             switch (Key)
             {
@@ -434,7 +434,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
+                    await Navigation.PushAsync(new DMajor("Minor Pentatonic I"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic I"));
@@ -487,7 +487,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
+                    await Navigation.PushAsync(new DMajor("Minor Pentatonic II"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic II"));
@@ -540,7 +540,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
+                    await Navigation.PushAsync(new DMajor("Minor Pentatonic III"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic III"));
@@ -593,7 +593,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
+                    await Navigation.PushAsync(new DMajor("Minor Pentatonic IV"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic IV"));
@@ -646,7 +646,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
+                    await Navigation.PushAsync(new DMajor("Minor Pentatonic V"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Minor Pentatonic V"));
@@ -702,7 +702,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Major Pentatonic I"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Major Pentatonic I"));
+                    await Navigation.PushAsync(new DMajor("Major Pentatonic I"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Major Pentatonic I"));
@@ -755,7 +755,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Major Pentatonic II"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Major Pentatonic II"));
+                    await Navigation.PushAsync(new DMajor("Major Pentatonic II"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Major Pentatonic II"));
@@ -808,7 +808,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Major Pentatonic III"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Major Pentatonic III"));
+                    await Navigation.PushAsync(new DMajor("Major Pentatonic III"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Major Pentatonic III"));
@@ -861,7 +861,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Major Pentatonic IV"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Major Pentatonic IV"));
+                    await Navigation.PushAsync(new DMajor("Major Pentatonic IV"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Major Pentatonic IV"));
@@ -914,7 +914,7 @@ namespace ChromaticMethod
                     await Navigation.PushAsync(new CMajor("Major Pentatonic V"));
                     break;
                 case "D":
-                    await Navigation.PushAsync(new CMajor("Major Pentatonic V"));
+                    await Navigation.PushAsync(new DMajor("Major Pentatonic V"));
                     break;
                 case "D#":
                     await Navigation.PushAsync(new CMajor("Major Pentatonic V"));
@@ -958,93 +958,278 @@ namespace ChromaticMethod
 
         async void Melodic_MinorI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Minor I"));
+            if (Key == "C")
+            {
+                await Navigation.PushAsync(new CMajor("Melodic Minor I"));
+            }
+            else if (Key == "D")
+            {
+                await Navigation.PushAsync(new DMajor("Melodic Minor I"));
+            }
+
         }
         async void Melodic_MinorII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Minor II"));
+            if (Key == "C")
+            {
+                await Navigation.PushAsync(new CMajor("Melodic Minor II"));
+            }
+            else if (Key == "D")
+            {
+                await Navigation.PushAsync(new DMajor("Melodic Minor II"));
+            }
         }
         async void Melodic_MinorIII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Minor III"));
+            if (Key == "C")
+            {
+                await Navigation.PushAsync(new CMajor("Melodic Minor III"));
+            }
+            else if (Key == "D")
+            {
+                await Navigation.PushAsync(new DMajor("Melodic Minor III"));
+            }
         }
         async void Melodic_MinorIV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Minor IV"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Minor IV"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Minor IV"));
+                }
+            }
         }
         async void Melodic_MinorV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Minor V"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Minor V"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Minor V"));
+                }
+            }
         }
         async void Melodic_MinorVI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Minor VI"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Minor VI"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VI"));
+                }
+            }
         }
         async void Melodic_MinorVII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Minor VII"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Minor VII"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Minor VII"));
+                }
+            }
         }
 
         // Melodic Major Scales 
 
         async void Melodic_MajorI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Major I"));
+
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Major I"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Major I"));
+                }
+            }
         }
         async void Melodic_MajorII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Major II"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Major II"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Major II"));
+                }
+            }
         }
         async void Melodic_MajorIII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Major III"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Major III"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Major III"));
+                }
+            }
         }
         async void Melodic_MajorIV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Major IV"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Major VI"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Major IV"));
+                }
+            }
         }
         async void Melodic_MajorV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Major V"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Major V"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Major V"));
+                }
+            }
         }
         async void Melodic_MajorVI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Major VI"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Major VI"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Major VI"));
+                }
+            }
         }
         async void Melodic_MajorVII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Melodic Major VII"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Melodic Major VII"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Melodic Major VII"));
+                }
+            }
         }
 
         // Enigmatic Minor Scales 
 
         async void Enigmatic_MinorI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Enigmatic Minor I"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Enigmatic Minor I"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor I"));
+                }
+            }
         }
         async void Enigmatic_MinorII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Enigmatic Minor I"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Enigmatic Minor II"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor II"));
+                }
+            }
         }
         async void Enigmatic_MinorIII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Enigmatic Minor III"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Enigmatic Minor III"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor III"));
+                }
+            }
         }
         async void Enigmatic_MinorIV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Enigmatic Minor IV"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Enigmatic Minor IV"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor IV"));
+                }
+            }
         }
         async void Enigmatic_MinorV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Enigmatic Minor V"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Enigmatic Minor V"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor V"));
+                }
+            }
         }
         async void Enigmatic_MinorVI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Enigmatic Minor VI"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Enigmatic Minor VI"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VI"));
+                }
+            }
         }
         async void Enigmatic_MinorVII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Enigmatic Minor VII"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Enigmatic Minor VII"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Enigmatic Minor VII"));
+                }
+            }
         }
 
         // Whole Tone Scales
@@ -1052,31 +1237,94 @@ namespace ChromaticMethod
 
         async void Whole_ToneI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone I"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Whole Tone I"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Whole Tone I"));
+                }
+            }
         }
         async void Whole_ToneII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone II"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Whole Tone II"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Whole Tone II"));
+                }
+            }
         }
         async void Whole_ToneIII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone III"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Whole Tone III"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Whole Tone III"));
+                }
+            }
         }
         async void Whole_ToneIV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone IV"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Whole Tone IV"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Whole Tone IV"));
+                }
+            }
         }
         async void Whole_ToneV(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone V"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Whole Tone V"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Whole Tone V"));
+                }
+            }
         }
         async void Whole_ToneVI(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone VI"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Whole Tone VI"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Whole Tone VI"));
+                }
+            }
         }
         async void Whole_ToneVII(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone VII"));
+            {
+                if (Key == "C")
+                {
+                    await Navigation.PushAsync(new CMajor("Whole Tone VII"));
+                }
+                else if (Key == "D")
+                {
+                    await Navigation.PushAsync(new DMajor("Whole Tone VII"));
+                }
+            }
         }
     }
 }

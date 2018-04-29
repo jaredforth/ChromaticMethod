@@ -56,11 +56,11 @@ namespace ChromaticMethod
             var CsDb = await DisplayAlert("Enharmonic Equivalents", "Select either C# or Db", "Db", "C#");
             if (CsDb)
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("Db"));
             }
             else
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("C#"));
             }
         }
 
@@ -69,11 +69,11 @@ namespace ChromaticMethod
             var DsEb = await DisplayAlert("Enharmonic Equivelants", "Select either D# or Eb", "Eb", "D#");
             if (DsEb)
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("Eb"));
             }
             else
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("D#"));
             }
         }
 
@@ -82,11 +82,11 @@ namespace ChromaticMethod
             var FsGb = await DisplayAlert("Enharmonic Equivelants", "Select either F# or Gb", "Gb", "F#");
             if (FsGb)
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("Gb"));
             }
             else
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("F#"));
             }
         }
 
@@ -95,11 +95,11 @@ namespace ChromaticMethod
             var GsAb = await DisplayAlert("Enharmonic Equivelants", "Select either G# or Ab", "Ab", "G#");
             if (GsAb)
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("Ab"));
             }
             else
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("G#"));
             }
         }
 
@@ -108,11 +108,11 @@ namespace ChromaticMethod
             var AsBb = await DisplayAlert("Enharmonic Equivelants", "Select either A# or Bb", "Bb", "A#");
             if (AsBb)
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("Bb"));
             }
             else 
             {
-                await Navigation.PushAsync(new ContentPage());
+                await Navigation.PushAsync(new KeyAnalyzer("A#"));
             }
         }
     }

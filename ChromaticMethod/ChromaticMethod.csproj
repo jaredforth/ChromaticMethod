@@ -48,6 +48,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="DMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -83,6 +87,9 @@
     <Compile Include="DomNinths.cs" />
     <Compile Include="KeyAnalyzer.cs">
       <DependentUpon>KeyAnalyzer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DMajor.cs">
+      <DependentUpon>DMajor.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
