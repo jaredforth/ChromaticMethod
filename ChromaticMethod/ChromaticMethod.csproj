@@ -79,6 +79,7 @@
     <Compile Include="ModeBuilder.cs" />
     <Compile Include="ModeBuilder5Note.cs" />
     <Compile Include="Scales.cs" />
+    <Compile Include="Triads.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

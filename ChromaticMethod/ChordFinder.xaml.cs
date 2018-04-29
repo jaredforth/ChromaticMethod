@@ -16,31 +16,31 @@ namespace ChromaticMethod
 
         async void TriadI_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone I"));
+            await Navigation.PushAsync(new CMajor("Triad I"));
         }
         async void TriadII_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone II"));
+            await Navigation.PushAsync(new CMajor("Triad II"));
         }
         async void TriadIII_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone III"));
+            await Navigation.PushAsync(new CMajor("Triad III"));
         }
         async void TriadIV_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone IV"));
+            await Navigation.PushAsync(new CMajor("Triad IV"));
         }
         async void TriadV_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone V"));
+            await Navigation.PushAsync(new CMajor("Triad V"));
         }
         async void TriadVI_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone VI"));
+            await Navigation.PushAsync(new CMajor("Triad VI"));
         }
         async void TriadVII_Clicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new CMajor("Whole Tone VII"));
+            await Navigation.PushAsync(new CMajor("Triad VII"));
         }
     }
 }
