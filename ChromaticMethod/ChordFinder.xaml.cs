@@ -61,6 +61,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Triad I"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Triad I"));
                     break;
@@ -116,6 +119,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Triad II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Triad II"));
@@ -173,6 +179,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Triad III"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Triad III"));
                     break;
@@ -228,6 +237,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Triad IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Triad IV"));
@@ -285,6 +297,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Triad V"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Triad V"));
                     break;
@@ -341,6 +356,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Triad VI"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Triad VI"));
                     break;
@@ -396,6 +414,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Triad VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Triad VII"));
@@ -457,6 +478,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 7th I"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 7th I"));
                     break;
@@ -512,6 +536,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 7th II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 7th II"));
@@ -569,6 +596,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 7th III"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 7th III"));
                     break;
@@ -624,6 +654,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 7th IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 7th IV"));
@@ -681,6 +714,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 7th V"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 7th V"));
                     break;
@@ -737,6 +773,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 7th VI"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Triad I"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 7th VI"));
                     break;
@@ -792,6 +831,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 7th VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 7th VII"));
@@ -852,6 +894,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("7th I"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("7th I"));
                     break;
@@ -907,6 +952,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("7th II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("7th II"));
@@ -964,6 +1012,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("7th III"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("7th III"));
                     break;
@@ -1019,6 +1070,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("7th IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("7th IV"));
@@ -1076,6 +1130,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("7th V"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("7th V"));
                     break;
@@ -1132,6 +1189,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("7th VI"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("7th VI"));
                     break;
@@ -1187,6 +1247,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("7th VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("7th VII"));
@@ -1248,6 +1311,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 9th I"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 9th I"));
                     break;
@@ -1303,6 +1369,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 9th II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 9th II"));
@@ -1360,6 +1429,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 9th III"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 9th III"));
                     break;
@@ -1415,6 +1487,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 9th IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 9th IV"));
@@ -1472,6 +1547,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 9th V"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 9th V"));
                     break;
@@ -1528,6 +1606,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 9th VI"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 9th VI"));
                     break;
@@ -1583,6 +1664,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("Dom 9th VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("Dom 9th VII"));
@@ -1644,6 +1728,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("9th I"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("9th I"));
                     break;
@@ -1699,6 +1786,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("9th II"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("9th II"));
@@ -1756,6 +1846,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("9th III"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("9th III"));
                     break;
@@ -1811,6 +1904,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("9th IV"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("9th IV"));
@@ -1868,6 +1964,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("9th V"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("9th V"));
                     break;
@@ -1924,6 +2023,9 @@ namespace ChromaticMethod
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("9th VI"));
                     break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
+                    break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("9th VI"));
                     break;
@@ -1979,6 +2081,9 @@ namespace ChromaticMethod
                     break;
                 case "Ab":
                     await Navigation.PushAsync(new AbMajor("9th VII"));
+                    break;
+                case "A":
+                    await Navigation.PushAsync(new AMajor("Dom 7th VII"));
                     break;
                 case "A#":
                     await Navigation.PushAsync(new AsMajor("9th VII"));
