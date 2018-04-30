@@ -52,6 +52,66 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="CsMajor.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DsMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EbMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FsMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GbMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GsMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AsMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BbMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EMajor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -77,19 +137,62 @@
     <Compile Include="MelodicMajor.cs" />
     <Compile Include="EnigmaticMinor.cs" />
     <Compile Include="WholeTone.cs" />
-    <Compile Include="ModeBuilder.cs" />
-    <Compile Include="ModeBuilder5Note.cs" />
     <Compile Include="Scales.cs" />
     <Compile Include="Triads.cs" />
     <Compile Include="Sevenths.cs" />
     <Compile Include="DomSevenths.cs" />
     <Compile Include="Ninths.cs" />
     <Compile Include="DomNinths.cs" />
-    <Compile Include="KeyAnalyzer.cs">
+    <Compile Include="KeyAnalyzer.xaml.cs">
       <DependentUpon>KeyAnalyzer.xaml</DependentUpon>
     </Compile>
     <Compile Include="DMajor.cs">
       <DependentUpon>DMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CsMajor.xaml.cs">
+      <DependentUpon>CsMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DbMajor.xaml.cs">
+      <DependentUpon>DbMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DsMajor.xaml.cs">
+      <DependentUpon>DsMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EbMajor.xaml.cs">
+      <DependentUpon>EbMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FMajor.xaml.cs">
+      <DependentUpon>FMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FsMajor.xaml.cs">
+      <DependentUpon>FsMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GbMajor.xaml.cs">
+      <DependentUpon>GbMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GMajor.xaml.cs">
+      <DependentUpon>GMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GsMajor.xaml.cs">
+      <DependentUpon>GsMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AbMajor.xaml.cs">
+      <DependentUpon>AbMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AMajor.xaml.cs">
+      <DependentUpon>AMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AsMajor.xaml.cs">
+      <DependentUpon>AsMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BbMajor.xaml.cs">
+      <DependentUpon>BbMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BMajor.xaml.cs">
+      <DependentUpon>BMajor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EMajor.xaml.cs">
+      <DependentUpon>EMajor.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
