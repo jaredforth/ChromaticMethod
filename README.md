@@ -57,7 +57,7 @@ Chromatica is a mobile app that allows the user to search and view the musical i
 #### 1.3 References
 
 - [_Xamarin Forms_](https://developer.xamarin.com) _– Platform_
-- [_Material Design_](https://material.io/guidelines/) _– Design language_
+- [_Native UI_](https://developer.apple.com/design/) _– Design 
 
 ## 2. Overall Description
 
@@ -88,27 +88,27 @@ This feature allows the user to input a key and get a return of all the musical 
 
 #### 3.1.2        Stimulus/Response Sequences
 
-The user action that will stimulate the return is navigating to the key analyzer tab at the bottom of the application, taping in the text entry input bar, and imputing a key in the string: &#39;C,D,E,F,G,A,B&#39; with an optional sharp(#) or flat(b) attached. This will return the major scale, modes, and chords in that key.
+The user action that will stimulate the return is selecting a key from the homepage, which will show the major scale and chord scale in the key. It is the starting point for both the _Chord Finder_ and the _Scale Finder_, and will have functionality for the user to search within the 
 
 ### 3.2 Chord Finder
 
 #### 3.2.1        Description
 
-This feature allows the user to enter any chord and get a return of the notes that comprise it and the scale it corresponds to.
+This feature allows the user to select any chord and get a return of the notes that comprise it and the scale it corresponds to.
 
 #### 3.2.2        Stimulus/Response Sequences
 
-The user action that will stimulate the return is navigating to the chord finder tab at the bottom of the application, taping in the text entry input bar, and imputing a chord in the string: &#39;C,D,E,F,G,A,B&#39; with an optional sharp(#) or flat(b) attached. They can also attach one of the string: _7,maj7,m7,9,maj9,m9,sus2,sus4,11,13, diminished, augmented_;. This will return the notes associated with the inputted chord.
+The user action that will stimulate the return is navigating to the chord finder tab in the bottom navigation bar, and by selecting one of the chords that corresponds to the diatonic scale in the key. 
 
 ### 3.3 Scale Finder
 
 #### 3.3.1        Description
 
-This feature allows the user to input a scale and get a return of the scale and modes of it.
+This feature allows the user to select a scale and get a return of the scale and modes of it.
 
 #### 3.3.2        Stimulus/Response Sequences
 
-The user action that will stimulate the return is navigating to the scale finder tab at the bottom of the application, taping in the text entry input bar, and imputing a key in the string: &#39;C,D,E,F,G,A,B&#39; with an optional sharp(#) or flat(b) attached. This will return the notes of the key and the modes associated with it.
+The user action that will stimulate the return is navigating to the scale finder tab at the bottom of the application, and selecting a scale or mode. This will return the notes in that scale for the key the user has selected. 
 
 ## 4. External Interface Requirements
 
@@ -116,7 +116,7 @@ This lays out information about the external user interface required by the syst
 
 #### 4.1 User Interfaces
 
-The user interface of this application will feature a standard navigation bar at the bottom of the screen with the following tabs: Key Analyzer, Chord Finder, Scale Finder, About. Each of the first three will contain a brief description of what the tool does, and an input box for the user to enter their search query into. One the user enters their input, the subsequent screen will have a the name of the chord, key, or scale, a diagram of the musical relationship of that element to the rest of the key, and an image of the notation.
+The homepage will be the entry point for the application, with all 12 keys shown. Once a key is selected, The user interface of this application will feature a standard navigation bar at the bottom of the screen with the following tabs: Key Analyzer, Scale Finder, and Chord Finder. The former will present an overview of the key with the major scale and diatonic triads, as well as a search function that will be added the next release. Both of the latter will present a listing of the chord and scale options, from which the user can select. 
 
 #### 4.2 Home
 
@@ -172,7 +172,7 @@ Search 1           |  Search 2
 
 #### 5.1 Usability
 
-This software will be user-friendly in the logical organization of the user interface, easy to learn and search for needed information, and aesthetically pleasing based on Google&#39;s Material Design language
+This software will be user-friendly in the logical organization of the user interface, easy to learn and search for needed information, and aesthetically pleasing based on the native user interface of the platform. 
 
 #### 5.2 Performance
 
@@ -201,24 +201,22 @@ Both the students and teachers can also access the three main functions of the a
 |   |  |
 | ------------- | ------------- |
 | Use Case    | 1. The_Chromatic_Method __history__: created 3/6/18 by Jared Forth | |
-| Description    | Generates the musical relationships ina key, finds scales and chords based on user input  |
+| Description    | Generates the musical relationships ina key, finds scales and chords based on user selection  |
 | Actors    | Educator (Primary), Student, Composers  |
 | Assumptions    | Generative algorithms can return all musical relationships in a given key  |
-| Issues    | Teachers and students save ideas in addition to the composer?  |
+| Issues    | Working on adding search fuction, standard notation graphics  |
 
 ##### Steps
 
-* User login as teacher or student or
-skips login
+* User opens app and sees homepage
+* User selects a key
 * Can perform one of the following
 actions:
-  - View or send a message
-  - Assign (educator) or view
-(student) a practice
-  - Access key analyzer
-  - Access chord finder
-  - Access scale finder
-* Save ideas
+  - Search from key analyzer (coming soon)
+  - View scales and modes by accessing scale finder
+  - View chords by accessing chord finder
+* Return home
+* Select new key _or_
 * Exit application
 
 ![Use Case](https://i.imgur.com/ghLbRAv.png)
