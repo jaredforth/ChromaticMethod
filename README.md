@@ -26,6 +26,11 @@
 |         [3.3. Scale Finder](#33-scale-finder)       |
 |         [**4. External Interface Requirements**](#4-external-interface-requirements)        |
 |         [4.1 User Interfaces](#41-user-interfaces)       |
+|         [4.2 Home](#42-home)       |
+|         [4.3 Key Analyzer](#43-key-analyzer)       |
+|         [4.4 Scale Fninder](#44-scale-finder)       |
+|         [4.5 Chord Finder](#45-chord-finder)       |
+|         [4.6 Search](#46-search)       |
 |         [**5. Quality Attributes**](#5-quality-attributes)       |
 |         [5.1 Usability](#51-usability)      |
 |         [5.2 Performance](#52-performance)       |
@@ -35,7 +40,6 @@
 |         [6.3 Class Diagram](#63-class-diagram)       |
 |         [6.4 Entity Relationship Diagram](#64-entity-relationship-diagram)       |
 | |
-
 
 
 ## 1. Introduction
@@ -94,7 +98,7 @@ This feature allows the user to enter any chord and get a return of the notes th
 
 #### 3.2.2        Stimulus/Response Sequences
 
-The user action that will stimulate the return is navigating to the chord finder tab at the bottom of the application, taping in the text entry input bar, and imputing a chord in the string: &#39;C,D,E,F,G,A,B&#39; with an optional sharp(#) or flat(b) attached. They can also attach one of the string: &#39;7,maj7,m7,9,maj9,m9,sus2,sus4,11,13, diminished, augmented&#39;. This will return the notes associated with the inputted chord.
+The user action that will stimulate the return is navigating to the chord finder tab at the bottom of the application, taping in the text entry input bar, and imputing a chord in the string: &#39;C,D,E,F,G,A,B&#39; with an optional sharp(#) or flat(b) attached. They can also attach one of the string: _7,maj7,m7,9,maj9,m9,sus2,sus4,11,13, diminished, augmented_;. This will return the notes associated with the inputted chord.
 
 ### 3.3 Scale Finder
 
@@ -113,6 +117,36 @@ This lays out information about the external user interface required by the syst
 #### 4.1 User Interfaces
 
 The user interface of this application will feature a standard navigation bar at the bottom of the screen with the following tabs: Key Analyzer, Chord Finder, Scale Finder, About. Each of the first three will contain a brief description of what the tool does, and an input box for the user to enter their search query into. One the user enters their input, the subsequent screen will have a the name of the chord, key, or scale, a diagram of the musical relationship of that element to the rest of the key, and an image of the notation.
+
+#### 4.2 Home
+
+This view is the first page presented to the user upon entering the app, and it presents all 12 keys as a starting point for the user. Each key can be entered, and the three primary views of key analyzer, scale finder, and chord finder are presented. This view also has an option in the top right to enter a search screen. The search function is not currently ready for production, but the interface is included in the prototype for the purpose of demonstration. There is an option to return to home from every view via a button in the upper left corner of the app, and the user can begin browsing another key if they wish. 
+
+Homepage            |  Homepage Continued
+:-------------------------:|:-------------------------:
+![Home 1](https://i.imgur.com/pFcbhOv.png)  |  ![Home 2](https://i.imgur.com/3ZP5xsX.png)
+
+
+#### 4.3 Key Analyzer
+
+This view is the first thing presented to the user upon clicking a key. For example, if a user clicks on **C** from the homepage, the C Key Analyzer will present an overview showing the notes in the C major scale and all the diatonic triads in the key. It also presents a search bar that will enable the user to search all scales and chords in the key of C. This function is not production ready yet, but the interface element is included for the purpose of demonstration. There is also a navigation bar at the bottom of this view that shows the _Key Analyzer_ as the current page, and the option to navigate to the _Scale Finder_ or _Chord Finder_. 
+
+Key Analyzer            |  Key Analyzer Search
+:-------------------------:|:-------------------------:
+![Home 1](https://i.imgur.com/dm1DD0f.png)  |  ![Home 2](https://i.imgur.com/YAtaQk1.png)
+
+#### 4.4 Scale Finder
+
+This view...
+
+#### 4.5 Chord Finder
+
+This view...
+
+#### 4.6 Search
+
+This view...
+
 
 ## 5. Quality Attributes
 
