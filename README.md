@@ -233,9 +233,9 @@ application, and once a key is selected the scale/chord finder and key analyzer 
 
 #### 6.3 Class Diagram 
 
-The class diagram presents the classes in the application logic. 
+The class diagram presents the classes in the application logic. The Home class has both XAML and a code-behind that controls the style and behavior of the homepage. When the a key is selected from the homepage, the string of that key is passed to the Key Analyzer, Scale Finder, or Chord Finder, which all take the Key paramater. This controls the content generated on these pages. Based on the key, the Scale and Chord Finders send the user's scale or chord selection to the corresponding key class (such as CMajor or EMajor), which then pass the scale or chord type and key to either a chord class (such as DomSeventh) or a scale class (such as Major). The chord and scale classes take a paramater of key and type, with the key controlling the notes they will draw from and the type determining what kind of scale or chord will be displayed. 
 
-![Class](https://i.imgur.com/K8AcwIU.png)
+![Class](https://i.imgur.com/XDO4YRG.png)
 
 #### 6.4 Entity Relationship Diagram
 
