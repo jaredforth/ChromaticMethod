@@ -226,28 +226,14 @@ actions:
 The component diagram illustrates the interaction of components and is structured based on the user
 interface, functions that can be used, and the infrastructure/ logic behind those functions. The three user
 interface screens are the user login screen, which students and teachers can use to login and which can
-optionally be skipped by normal users. The key analyzer screen is the primary home interface on the
-application, and the scale/chord finder is the secondary interface that can be navigated to. The user
-management function regulates the login interface, the analysis function that of the key analyzer, and
-the chord and scale finder functions for the corresponding finder interface. User logic regulates the
-management of users and controls how they are allowed to interact with each other. The analyzer and
-chord and scale finder logic uses slightly different algorithms to return information based on the user
-input.
+optionally be skipped by normal users. The Home screen is the primary interface on the
+application, and once a key is selected the scale/chord finder and key analyzer can be navigated to.
 
-![Component](https://i.imgur.com/KtxEQs1.png)
+![Component](https://i.imgur.com/CYLdfkY.png)
 
 #### 6.3 Class Diagram 
 
-The class diagram presents the classes in the application logic, and has the Composer, Educator, and
-Student, which are particular instances of the general class User. The Login class allows students and
-educators to login and view details specific to their account. The LoginPage class allows the user to
-send a message or view/assign a practice, depending on the type of account the user has. The
-StudentMenu and TeacherMenu classes regulate the function of these actions. The Composer class
-regulates the actions of a user that is not logged in to the application. The three primary logical functions
-of the application are found in the Analyzer, ChordFinder, and ScaleFinder classes, which contain the
-logic for the function of the application. The algorithms that return what the user is looking for are
-contained in these classes. The SaveIdea class allows the user to save snippets they have generated,
-and the three primary classes are accessible by all users.
+The class diagram presents the classes in the application logic. 
 
 ![Class](https://i.imgur.com/K8AcwIU.png)
 
