@@ -240,9 +240,6 @@ The class diagram presents the classes in the application logic. The Home class 
 #### 6.4 Entity Relationship Diagram
 
 The entity relationship diagram presents the relationship between entities of the application and the ratio
-by which they can interact with one another. Many users can access any of the functions at any time,
-and this applies to all users. The particular instance of user, one educator, can teach many students, but
-each student only relates to one teacher. Many composers can save many ideas, and both educators
-and students can access all of the functions.
+by which they can interact with one another. Many users can access the chord and scale functions at the same time, and those functions are accessing information from the key classes. The key analyzer draws from both the functions and key information, and does so for all instances of each. 
 
-![Entity - relationship](https://i.imgur.com/ZeRQGXa.png)
+![Entity - relationship](https://i.imgur.com/MMiCGZN.png)
