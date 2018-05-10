@@ -161,7 +161,11 @@ Chord Example 1           |  Chord Example 2
 
 #### 4.6 Search
 
-This view...
+The search function is not currently production ready, but the UI is included for the purpose of what will be possible as the app continues production. This view is accessed from the homepage by clicking the button in the top right. The view simply presents a search bar and keyboard, and will enable to user to search all the scales and chords throughout all of the keys. This is a function that is used to find a particular chord or scale quickly, though some users will prefer to explore the keys by tapping through the various pages instead. 
+
+Search 1           |  Search 2
+:-------------------------:|:-------------------------:
+![Search 1](https://i.imgur.com/KkmpQL2.png)  |  ![Search 2](https://i.imgur.com/MByvIa5.png)
 
 
 ## 5. Quality Attributes
