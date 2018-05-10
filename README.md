@@ -57,7 +57,7 @@ Chromatica is a mobile app that allows the user to search and view the musical i
 #### 1.3 References
 
 - [_Xamarin Forms_](https://developer.xamarin.com) _– Platform_
-- [_Native UI_](https://developer.apple.com/design/) _– Design 
+- [_Native UI_](https://developer.apple.com/design/) _– Design_
 
 ## 2. Overall Description
 
@@ -219,7 +219,7 @@ actions:
 * Select new key _or_
 * Exit application
 
-![Use Case](https://i.imgur.com/ghLbRAv.png)
+![Use Case](https://i.imgur.com/q2NEFg7.png)
 
 #### 6.2 Component Diagram
 
@@ -231,7 +231,7 @@ application, and the scale/chord finder is the secondary interface that can be n
 management function regulates the login interface, the analysis function that of the key analyzer, and
 the chord and scale finder functions for the corresponding finder interface. User logic regulates the
 management of users and controls how they are allowed to interact with each other. The analyzer and
-chord and scale finder logic uses slightly different algorithms to return information based on the user
+chord and scale finder logic use slightly different algorithms to return information based on the user
 input.
 
 ![Component](https://i.imgur.com/KtxEQs1.png)
