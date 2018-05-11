@@ -13,18 +13,18 @@ namespace ChromaticMethod
 
             this.Title = $"{Key} Major";
 
-            var page = new ContentPage();
+			var page = new ContentPage() {};
             page.Icon = "clef.png";
             page.Title = "Key Analyzer";
 
-            var layout = new StackLayout();
-            var header = new Label() { Text = "Key Analyzer", TextColor = Color.Black, FontSize = 30, HorizontalOptions = LayoutOptions.Center };
-            var subHeader = new Label { Text = "Overview", FontSize = 20, HorizontalOptions = LayoutOptions.Center, Margin = 20 };
-            var searchHeader = new Label { Text = "Search", FontSize = 20, HorizontalOptions = LayoutOptions.Center, Margin = 20 };
+			var layout = new StackLayout() { HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center};
+            var header = new Label() { Text = "Key Analyzer", TextColor = Color.Black, FontSize = 40 };
+            var subHeader = new Label { Text = "Overview", FontSize = 30 };
+            var searchHeader = new Label { Text = "Search", FontSize = 30 };
 
             layout.Children.Add(header);
             layout.Children.Add(subHeader);
-
+            
             if (Key == "C")
             {
                 var scale = new Label() { Text = $"The notes in the {Key} major scale are {Major.ModeI(Key)}" };

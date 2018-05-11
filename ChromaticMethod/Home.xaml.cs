@@ -6,14 +6,14 @@ namespace ChromaticMethod
 {
     public partial class Home : ContentPage
     {
-        void Handle_Activated(object sender, System.EventArgs e)
-        {
-            DisplayAlert("Login", "Login Sucessful", "OK");
-        }
-
         public Home()
         {
             InitializeComponent();
+        }
+
+		void Handle_Activated(object sender, System.EventArgs e)
+        {
+            DisplayAlert("Login", "Login Sucessful", "OK");
         }
 
         async void C_Clicked(object sender, System.EventArgs e)
