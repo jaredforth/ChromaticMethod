@@ -9,7 +9,6 @@ namespace ChromaticMethod
     {
         public KeyAnalyzer(string Key)
         {
-
             this.Title = $"{Key} Major";
 
 			var page = new ContentPage() {};

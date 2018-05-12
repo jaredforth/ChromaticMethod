@@ -195,6 +195,7 @@
     <Compile Include="EMajor.xaml.cs">
       <DependentUpon>EMajor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Search.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core.Design">

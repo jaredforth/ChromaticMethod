@@ -11,9 +11,9 @@ namespace ChromaticMethod
             InitializeComponent();
         }
 
-		void Handle_Activated(object sender, System.EventArgs e)
+		async void Search_Clicked(object sender, System.EventArgs e)
         {
-            DisplayAlert("Login", "Login Sucessful", "OK");
+			await Navigation.PushAsync(new Search());
         }
 
         async void C_Clicked(object sender, System.EventArgs e)
